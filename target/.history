@@ -1,0 +1,31 @@
+compile
+run-main trans.Schedule
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+run-main trans.ScheduleTest
+compile
+run-main trans.ScheduleTest
+exit
+compile
+run-main trans.ScheduleTest
+run-main trans.ScheduleTest\
+run-main trans.ScheduleTest
+run-main trans.GraphTest
+exit
+compile
+run-main trans.ScheduleTest
+compile
+run-main trans.ScheduleTest
+exit
+compile
+run-main trans.VDBTest
+compile
+run-main trans.VDBTest
+compile
+run-main trans.VDBTest
