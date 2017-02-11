@@ -13,9 +13,14 @@ case class Tso(var read_timestamp:Long,var write_timestamp:Long) {
   val map = mutable.ListMap.empty[Int, Tso]
 
 
+
+
+
   def checkTso(transaction_timestamp: Long, Op: Op): String = {
 
     val oid=Op._3
+
+
 
 
     for( (k,v)<-map)
