@@ -9,20 +9,27 @@ organization := "scalation"
 version := "1.1"
 
 libraryDependencies  ++= Seq(
-            // other dependencies here
-            "org.scalanlp" %% "breeze" % "0.10",
-            // native libraries are not included by default. add this if you want them (as of 0.7)
-            // native libraries greatly improve performance, but increase jar sizes.
-            "org.scalanlp" %% "breeze-natives" % "0.10"
+  // other dependencies here
+  "org.scalanlp" %% "breeze" % "0.12",
+  // native libraries are not included by default. add this if you want them (as of 0.7)
+  // native libraries greatly improve performance, but increase jar sizes.
+  // It also packages various blas implementations, which have licenses that may or may not
+  // be compatible with the Apache License. No GPL code, as best I know.
+  "org.scalanlp" %% "breeze-natives" % "0.12",
+  // the visualization library is distributed separately as well.
+  // It depends on LGPL code.
+  "org.scalanlp" %% "breeze-viz" % "0.12"
 )
 
 resolvers ++= Seq(
-            // other resolvers here
-            "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/"
+  // other resolvers here
+  // if you want to use snapshot builds (currently 0.12-SNAPSHOT), use this.
+  "Sonatype Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/",
+  "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/"
 )
 
-// Scala 2.9.2 is still supported for 0.2.1, but is dropped afterwards.
-scalaVersion := "2.11.1" // or 2.10.3 or later
+// or 2.11.8
+scalaVersion := "2.10.4"
 
 
 

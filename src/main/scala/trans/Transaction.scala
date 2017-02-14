@@ -22,6 +22,12 @@ import java.io.{BufferedWriter, FileWriter, Writer}
 
 import scala.util.control.Breaks._
 import Operation._
+import breeze.linalg._
+import breeze.numerics._
+import breeze.polynomial
+import breeze.plot._
+
+import scala.io.Source
 
 
 object TransactionStats {
@@ -178,7 +184,7 @@ object TransactionTest extends App
 
   val startTime=System.currentTimeMillis()
 
-  val NUMBER_THREADS=30
+  val NUMBER_THREADS=50
 
   var j=0
 
@@ -214,6 +220,27 @@ object TransactionTest extends App
   val output = new BufferedWriter(new FileWriter("tso.txt",true));  //clears file every time
   output.append(tps+","+NUMBER_THREADS*2+"\n");
   output.close();
+
+  val throughput = DenseVector( Source.fromFile("tso.txt")
+    .getLines.map(_.split(",")(0).toDouble).toSeq :_ * )
+
+  for(i<-throughput)
+    println(i)
+
+  val threads = DenseVector( Source.fromFile("tso.txt")
+    .getLines.map(_.split(",")(1).toDouble).toSeq :_ * )
+
+  for(i<-threads)
+    println(i)
+
+  val fig = Figure()
+  val plt = fig.subplot(0)
+  plt += plot(threads , throughput)
+  plt.xlabel=" Threads"
+  plt.ylabel=" Transactions/second"
+
+  fig.refresh()
+
 
 
 
