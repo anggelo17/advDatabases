@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes
+output dir -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes
 compile options:
 0 items
 javac options:
@@ -19,34 +19,61 @@ name hashing:
 1 items
 0 -> true
 products:
-19 items
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDB$.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDB$Page$.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDB$Page.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDB.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDBTest$.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDBTest$delayedInit$body.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDBTest.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Graph$.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Graph.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\GraphTest$.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\GraphTest$delayedInit$body.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\GraphTest.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Operation$.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Operation.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Schedule$.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Schedule.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\ScheduleTest$.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\ScheduleTest$delayedInit$body.class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\ScheduleTest.class
+38 items
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Graph$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Graph.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\GraphTest$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\GraphTest$delayedInit$body.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\GraphTest.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\LockTable$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\LockTable$Lock.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\LockTable.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\CheckPoint.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDB$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDB.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDBTest$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDBTest$delayedInit$body.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDBTest.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Recover.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Operation$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Operation.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Schedule$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Schedule.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\ScheduleTest$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\ScheduleTest$delayedInit$body.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\ScheduleTest.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Transaction$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Transaction.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionStats$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionStats.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionTest$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionTest$delayedInit$body.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionTest.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Tso$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Tso.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDB$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDB$Page$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDB$Page.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDB.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDBTest$.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDBTest$delayedInit$body.class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDBTest.class
 binary dependencies:
-6 items
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
+14 items
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -56,8 +83,13 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-1 items
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala
+6 items
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -65,363 +97,821 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-19 items
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> trans.VDB
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> trans.VDB$
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> trans.VDB$Page
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> trans.VDB$Page$
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> trans.VDBTest
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> trans.VDBTest$
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> trans.VDBTest$delayedInit$body
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> trans.Graph
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> trans.Graph$
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> trans.GraphTest
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> trans.GraphTest$
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> trans.GraphTest$delayedInit$body
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> trans.Operation
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> trans.Operation$
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> trans.Schedule
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> trans.Schedule$
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> trans.ScheduleTest
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> trans.ScheduleTest$
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> trans.ScheduleTest$delayedInit$body
+38 items
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> trans.Graph
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> trans.Graph$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> trans.GraphTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> trans.GraphTest$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> trans.GraphTest$delayedInit$body
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> trans.LockTable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> trans.LockTable$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> trans.LockTable$Lock
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> trans.CheckPoint
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> trans.PDB
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> trans.PDB$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> trans.PDBTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> trans.PDBTest$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> trans.PDBTest$delayedInit$body
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> trans.Recover
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> trans.Operation
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> trans.Operation$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> trans.Schedule
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> trans.Schedule$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> trans.ScheduleTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> trans.ScheduleTest$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> trans.ScheduleTest$delayedInit$body
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> trans.Transaction
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> trans.Transaction$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> trans.TransactionStats
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> trans.TransactionStats$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> trans.TransactionTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> trans.TransactionTest$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> trans.TransactionTest$delayedInit$body
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> trans.Tso
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> trans.Tso$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> trans.VDB
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> trans.VDB$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> trans.VDB$Page
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> trans.VDB$Page$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> trans.VDBTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> trans.VDBTest$
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> trans.VDBTest$delayedInit$body
 used names:
-309 items
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> %
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> &&
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> *
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> +
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> +=
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> -
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ->
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> <init>
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> <repeated>
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ==
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> A
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> AbstractFunction0
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Any
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> AnyRef
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> App
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Array
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ArrayBuffer
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ArrayOps
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ArrowAssoc
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> B
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Boolean
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Byte
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ClassTag
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Function1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> IndexOutOfBoundsException
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> IndexedSeq
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Int
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Iterator
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> LogRec
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Map
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> MatchError
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Nothing
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Object
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Page
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Predef
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Product
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Range
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Record
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> RichInt
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ScalaRunTime
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Serializable
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> String
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> StringContext
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> StringOps
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> T
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> T0
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> T1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> T2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> T3
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> T4
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Tuple2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Tuple4
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> U
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> Unit
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> VDB
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> VDBTest
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> _$2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> _$3
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> _$7
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> _1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> _2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> _hashCode
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> _root_
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> apply
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> arrayClass
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> asInstanceOf
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> augmentString
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> cache
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> collection
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> cpage
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> cpi
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> deep
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> foreach
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> genRecord
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> getBytes
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> i
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> initCache
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> intWrapper
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> isInstanceOf
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> j
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> logBuf
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> map
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> materializeClassTag
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> mutable
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ne
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> newVal
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ofDim
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> ofRef
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> oid
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> oldVal
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> p
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> package
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> pages
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> pg
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> prefix
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> println
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> read
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> rec
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> record_size
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> recs_per_page
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> refArrayOps
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> reflect
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> runtime
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> s
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> scala
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> size
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> tid
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> toString
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> trans
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> typedProductIterator
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> unchecked
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> until
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> update
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> !=
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> +
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> -
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ->
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> <
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> <byname>
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> <init>
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> <repeated>
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> >
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> A
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Any
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> AnyRef
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> App
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Array
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ArrayOps
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ArrowAssoc
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> B
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Boolean
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> CharSequence
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ClassTag
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Cloneable
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> FilterMonadic
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Function1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Function2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Graph
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> GraphTest
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Int
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Map
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Nothing
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Object
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Predef
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Range
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Set
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> String
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> StringContext
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> T
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Tuple2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> U
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> Unit
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> V1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> _$7
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> addPar
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> apply
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> buildLabelMap
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ch
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ch_i
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> checkEdges
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> clip
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> clone
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> contains
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> foldLeft
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> foreach
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> g
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> g1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> g1p
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> g2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> g2p
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> getOrElse
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> i
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> indices
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> intArrayOps
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> inverse
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> j
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> l
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> lab
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> label
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> labelMap
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> length
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> materializeClassTag
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> maxId
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> n
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> name
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ofDim
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ofInt
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ofRef
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> pa
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> package
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> printG
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> println
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> q1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> q1p
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> q2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> q2p
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> refArrayOps
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> reflect
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> replace
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> s
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> same
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> scala
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> size
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> sum
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> toLine
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> toString
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> trans
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> u
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> u_c
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> unary_!
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> update
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> withFilter
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> ||
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> !=
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> &&
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> *
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> +
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> <byname>
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> <init>
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> <repeated>
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> ==
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> A
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Any
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> AnyRef
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> App
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Array
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> B
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Boolean
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> CanBuildFrom
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Char
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> CharSequence
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Class
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> ClassTag
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Coll
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> FilterMonadic
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Function1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Graph
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> IndexedSeq
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Int
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> List
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Nothing
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Object
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Op
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Operation
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Predef
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Range
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> RichInt
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Schedule
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> ScheduleTest
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Set
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> String
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> StringContext
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> T
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> T1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> T2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> T3
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> That
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Tuple3
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> U
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> Unit
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> _$7
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> _1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> _2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> _3
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> _root_
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> apply
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> canBuildFrom
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> ch
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> collection
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> conflicts
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> f
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> fill
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> foreach
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> g
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> gen
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> i
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> immutable
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> indices
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> intWrapper
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> isCSR
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> isVSR
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> j
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> map
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> materializeClassTag
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> nOps
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> nTrans
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> o
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> p
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> package
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> printG
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> println
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> r
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> reflect
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> replace
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> s
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> s1
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> s2
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> scala
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> size
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> toList
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> total
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> trans
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> until
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> update
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> w
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> withFilter
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> ||
+724 items
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> !=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> +
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> -
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ->
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> <
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> <byname>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> <init>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> <repeated>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> >
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> A
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Any
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> AnyRef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> App
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Array
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ArrayOps
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ArrowAssoc
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> B
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Boolean
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> CharSequence
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ClassTag
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Cloneable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> FilterMonadic
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Function1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Function2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Graph
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> GraphTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Int
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Map
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Nothing
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Object
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Predef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Range
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Set
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> String
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> StringContext
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> T
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Tuple2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> U
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> Unit
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> V1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> _$7
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> addPar
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> apply
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> buildLabelMap
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ch
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ch_i
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> checkEdges
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> clip
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> clone
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> contains
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> foldLeft
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> foreach
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> g
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> g1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> g1p
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> g2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> g2p
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> getOrElse
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> i
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> indices
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> intArrayOps
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> inverse
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> j
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> l
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> lab
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> label
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> labelMap
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> length
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> materializeClassTag
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> maxId
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> n
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> name
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ofDim
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ofInt
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ofRef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> pa
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> package
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> printG
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> println
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> q1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> q1p
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> q2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> q2p
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> refArrayOps
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> reflect
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> replace
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> s
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> same
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> size
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> sum
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> toLine
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> toString
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> trans
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> u
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> u_c
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> unary_!
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> update
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> withFilter
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> ||
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> +
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> +=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> ->
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> <init>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> ==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> A
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Any
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> AnyRef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> ArrowAssoc
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> B
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Boolean
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> HashMap
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Int
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> ListMap
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Lock
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> LockTable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Nothing
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Object
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Option
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Predef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> ReadLock
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> ReentrantReadWriteLock
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Set
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> String
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Tuple2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> Unit
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> WriteLock
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> apply
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> collection
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> concurrent
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> contains
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> get
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> java
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> keySet
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> lock
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> lockmap
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> locks
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> mutable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> oid
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> println
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> readLock
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> toString
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> trans
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> unary_!
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> unlock
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> util
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> writeLock
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> !=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> &&
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> +
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> +=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> -
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> <init>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> <repeated>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> ==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> >
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> >=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> A
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> A1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Any
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> AnyRef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> App
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Array
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> ArrayBuffer
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> B
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> BEGIN
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Boolean
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Byte
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> ByteBuffer
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> CHECKPOINT
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> COMMIT
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> CanBuildFrom
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> CheckPoint
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> ClassTag
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Coll
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> DEBUG
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Function1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> IndexedSeq
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Int
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> LogRec
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Long
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Map
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Nothing
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Null
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Object
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> PDB
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> PDBTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Predef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> ROLLBACK
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> RandomAccessFile
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Range
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Record
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Recover
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> RichInt
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> String
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> T
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> T1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> T2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> T3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> T4
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> That
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Thread
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Tuple4
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> U
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> Unit
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> _1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> _2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> _3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> _4
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> activeList
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> allocate
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> apply
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> array
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> bytebuffer
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> bytes
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> canBuildFrom
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> checkpointThread
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> checkpoint_index
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> close
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> collection
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> commitList
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> contains
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> entryRecord
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> eof
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> foreach
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> found
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> fromBytestoRecord
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> get
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> getBytes
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> getInt
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> i
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> immutable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> intWrapper
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> io
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> isAlive
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> j
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> java
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> k
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> lang
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> length
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> log
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> logBuf
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> logRec
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> logRecord
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> logRecordtoByte
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> map
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> materializeClassTag
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> mutable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> newv
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> nio
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> ofDim
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> oid
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> old
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> package
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> position
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> println
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> put
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> putInt
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> read
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> rec
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> record
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> recoverThread
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> reflect
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> seek
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> size
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> sleep
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> start
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> start_index
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> store
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> tid
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> toArray
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> toLong
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> trans
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> unary_!
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> uncommitedList
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> until
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> while$1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> while$2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> wrap
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> write
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> writeLog
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> z
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> !=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> &&
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> *
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> +
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> <byname>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> <init>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> <repeated>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> ==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> A
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Any
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> AnyRef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> App
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Array
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> B
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Boolean
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> CanBuildFrom
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Char
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> CharSequence
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> ClassTag
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Coll
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> FilterMonadic
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Function1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Graph
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> IndexedSeq
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Int
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> List
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Nothing
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Object
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Op
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Operation
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Predef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Range
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> RichInt
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Schedule
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> ScheduleTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Set
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> String
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> StringContext
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> T
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> T1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> T2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> T3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> That
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Tuple3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> U
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> Unit
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> _$7
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> _1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> _2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> _3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> _root_
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> apply
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> canBuildFrom
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> ch
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> collection
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> conflicts
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> f
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> fill
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> foreach
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> g
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> gen
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> i
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> immutable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> indices
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> intWrapper
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> isCSR
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> isVSR
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> j
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> map
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> materializeClassTag
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> nOps
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> nTrans
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> o
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> p
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> package
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> printG
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> println
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> r
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> reflect
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> replace
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> s
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> s1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> s2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> size
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> toList
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> total
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> trans
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> until
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> update
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> w
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> withFilter
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> ||
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> &&
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> *
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> +
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> -
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> /
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> <init>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> <repeated>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> ==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> A
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Any
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> AnyRef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> App
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Boolean
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Breaks
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> BufferedWriter
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Char
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> CharSequence
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> DEBUG
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Double
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> FileWriter
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Function1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Int
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> List
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Long
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> NUMBER_THREADS
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Nothing
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Object
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Op
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Operation
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Predef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Range
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Record
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> RichInt
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Schedule
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> String
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> System
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> T1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> T2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> T3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> TSOproto
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Thread
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Transaction
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> TransactionStats
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> TransactionTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Tso
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Tuple2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Tuple3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> TwoPL
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> U
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Unit
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> VDB
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> Writer
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> _1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> answer
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> append
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> apply
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> begin
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> checkTso
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> close
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> collection
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> commit
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> control
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> count
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> count_=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> currentTimeMillis
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> end
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> endTime
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> equals
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> foreach
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> i
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> immutable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> indices
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> initCache
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> intWrapper
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> io
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> j
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> j_=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> java
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> lang
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> nextCount
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> oid
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> op
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> output
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> package
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> println
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> protocol
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> r
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> read
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> rollback
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> rolls
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> rolls_=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> sch
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> sleep
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> start
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> startTime
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> stopb
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> t1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> t2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> tid
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> toDouble
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> totalTime
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> tps
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> trans
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> tso
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> unary_!
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> until
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> util
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> value
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> w
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> write
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> &&
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> +
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> +=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> ->
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> <
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> <init>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> ==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> >
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> A
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> AbstractFunction2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Any
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> AnyRef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> ArrowAssoc
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> B
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Boolean
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Char
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> FilterMonadic
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Function1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> IndexOutOfBoundsException
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Int
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Iterator
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> ListMap
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Long
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> MatchError
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Math
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> None
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Nothing
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Object
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Op
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Operation
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Option
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Predef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Product
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> ScalaRunTime
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Serializable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Some
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Statics
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> String
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> System
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> T
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> T0
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> T1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> T2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Tso
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Tuple2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> U
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> Unit
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> _1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> _2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> _3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> _root_
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> _toString
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> asInstanceOf
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> checkTso
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> collection
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> currentTimeMillis
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> empty
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> eq
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> finalizeHash
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> foreach
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> get
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> isInstanceOf
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> java
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> k
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> lang
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> longHash
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> map
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> max
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> mix
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> mutable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> ne
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> oid
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> package
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> println
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> read_timestamp
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> read_timestamp_=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> runtime
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> toString
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> trans
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> transaction_timestamp
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> ts
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> typedProductIterator
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> unchecked
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> v
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> value
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> withFilter
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> write_timestamp
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> write_timestamp_=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> ||
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> !=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> %
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> &&
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> *
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> +
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> +=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> -
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ->
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> /
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> <init>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> <repeated>
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> A
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> AbstractFunction0
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Any
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> AnyRef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> App
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Array
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ArrayBuffer
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ArrayOps
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ArrowAssoc
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> B
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> BEGIN
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Boolean
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Breaks
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Byte
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ByteBuffer
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> COMMIT
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Class
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ClassTag
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> DEBUG
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Function1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> IndexOutOfBoundsException
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> IndexedSeq
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Int
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Iterator
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> LogRec
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Map
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> MatchError
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Nothing
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Object
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> PDB
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Page
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Predef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Product
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ROLLBACK
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Range
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Record
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> RichInt
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ScalaRunTime
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Serializable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> String
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> StringContext
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> StringOps
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> T
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> T0
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> T1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> T2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> T3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> T4
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Tuple2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Tuple4
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> U
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> Unit
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> VDB
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> VDBTest
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> _$2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> _$3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> _$7
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> _1
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> _2
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> _3
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> _4
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> _hashCode
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> _root_
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> allocate
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> apply
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> array
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> arrayClass
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> asInstanceOf
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> augmentString
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> break
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> bytebuffer
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> cache
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> collection
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> control
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> cpage
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> cpi
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> deep
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> foreach
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> genRecord
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> getBytes
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> i
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> initCache
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> intWrapper
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> isInstanceOf
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> j
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> java
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> logBuf
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> logRec
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> logrec
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> map
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> materializeClassTag
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> mutable
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ne
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> newVal
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> nio
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ofDim
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ofRef
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> oid
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> oldVal
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> p
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> package
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> pages
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> pg
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> println
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> put
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> putInt
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> read
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> rec
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> record_size
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> recs_per_page
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> refArrayOps
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> reflect
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> runtime
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> s
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> scala
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> size
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> start_index
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> str
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> str2record
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> tid
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> toString
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> trans
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> typedProductIterator
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> unchecked
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> undo
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> until
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> update
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> util
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> write
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> writeLog
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> writeStore
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> ||
 product stamps:
-19 items
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Graph$.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Graph.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\GraphTest$.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\GraphTest$delayedInit$body.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\GraphTest.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Operation$.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Operation.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Schedule$.class -> lastModified(1485364839604)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\Schedule.class -> lastModified(1485364839604)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\ScheduleTest$.class -> lastModified(1485364839604)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\ScheduleTest$delayedInit$body.class -> lastModified(1485364839604)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\ScheduleTest.class -> lastModified(1485364839604)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDB$.class -> lastModified(1485364839573)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDB$Page$.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDB$Page.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDB.class -> lastModified(1485364839573)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDBTest$.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDBTest$delayedInit$body.class -> lastModified(1485364839589)
-C:\Users\luis\Downloads\transactions (1)\transactions\target\scala-2.12\classes\trans\VDBTest.class -> lastModified(1485364839573)
+38 items
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\CheckPoint.class -> lastModified(1487034130619)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Graph$.class -> lastModified(1487034130588)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Graph.class -> lastModified(1487034130588)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\GraphTest$.class -> lastModified(1487034130603)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\GraphTest$delayedInit$body.class -> lastModified(1487034130603)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\GraphTest.class -> lastModified(1487034130603)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\LockTable$.class -> lastModified(1487034130619)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\LockTable$Lock.class -> lastModified(1487034130619)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\LockTable.class -> lastModified(1487034130603)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Operation$.class -> lastModified(1487034130650)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Operation.class -> lastModified(1487034130650)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDB$.class -> lastModified(1487034130635)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDB.class -> lastModified(1487034130635)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDBTest$.class -> lastModified(1487034130635)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDBTest$delayedInit$body.class -> lastModified(1487034130650)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\PDBTest.class -> lastModified(1487034130635)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Recover.class -> lastModified(1487034130619)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Schedule$.class -> lastModified(1487034130666)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Schedule.class -> lastModified(1487034130650)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\ScheduleTest$.class -> lastModified(1487034130666)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\ScheduleTest$delayedInit$body.class -> lastModified(1487034130666)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\ScheduleTest.class -> lastModified(1487034130666)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Transaction$.class -> lastModified(1487034130682)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Transaction.class -> lastModified(1487034130682)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionStats$.class -> lastModified(1487034130682)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionStats.class -> lastModified(1487034130682)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionTest$.class -> lastModified(1487034130697)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionTest$delayedInit$body.class -> lastModified(1487034130697)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\TransactionTest.class -> lastModified(1487034130682)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Tso$.class -> lastModified(1487034130713)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\Tso.class -> lastModified(1487034130697)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDB$.class -> lastModified(1487034130713)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDB$Page$.class -> lastModified(1487034130728)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDB$Page.class -> lastModified(1487034130728)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDB.class -> lastModified(1487034130713)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDBTest$.class -> lastModified(1487034130728)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDBTest$delayedInit$body.class -> lastModified(1487034130728)
+C:\Users\luis\Documents\advDb\advDatabases\target\scala-2.12\classes\trans\VDBTest.class -> lastModified(1487034130713)
 source stamps:
-3 items
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> hash(0ea9946d5f6ea26c076c33f4ae43c738c9033b7a)
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> hash(c5d45848075501ac9a0c68fb8b4f3f94f5b98e62)
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> hash(2b331353cab9d919c2243070bbbcf628781c6c7d)
+8 items
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> hash(c5d45848075501ac9a0c68fb8b4f3f94f5b98e62)
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> hash(607fda64d12ae30872c9af32761387eab105d065)
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> hash(980aa66bd8385b821da926712d553725d373209a)
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> hash(6bd1a73c6ef487e1ed83e88e04ce55fa25549ae4)
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> hash(b7c90570bc1aed6d1ac951979e24bc7e077af538)
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction2pl.scala -> hash(dc2111e334bae618eef7cc2ac2e3661f3ad36df4)
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> hash(fded72b4c87e43cf2078e72c42532f02c07420d1)
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> hash(b393390a4a108149ea262aef151a6364553a69fe)
 binary stamps:
 2 items
 C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar -> lastModified(1462497279830)
@@ -431,25 +921,45 @@ class names:
 C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar -> java.lang.Object
 C:\Users\luis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar -> scala.App
 internal apis:
-3 items
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwUU/iWQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAsc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwMY/q43QABm5vdGlmeXNxAH4ADK7db/V0AARyZWFkc3EAfgAMRnBqxXQAB3VuYXBwbHlzcQB+AAy1cSXbdAAEd2FpdHNxAH4ADIW00I90AA0kYXNJbnN0YW5jZU9mc3EAfgAM9uN2hXQADHByb2R1Y3RBcml0eXNxAH4ADN+KEK10AAZlcXVhbHNzcQB+AAzmYPAXdAAGTG9nUmVjc3EAfgAMhQDN8XQADGFzSW5zdGFuY2VPZnNxAH4ADIWnVP10AA5leGVjdXRpb25TdGFydHNxAH4ADBmSkHh0AAxzeW5jaHJvbml6ZWRzcQB+AAydZSyydAAHVkRCVGVzdHNxAH4ADGgLUmJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMrUaJNHQACGNhbkVxdWFsc3EAfgAMUtbIPXQABG1haW5zcQB+AAyYl8BsdAANcHJvZHVjdFByZWZpeHNxAH4ADH59rel0AAlub3RpZnlBbGxzcQB+AAzL1wucdAAFY2FjaGVzcQB+AAxR+UvadAAMaXNJbnN0YW5jZU9mc3EAfgAMCpoYcnQACWdlblJlY29yZHNxAH4ADNrc/DV0AARQYWdlc3EAfgAMI450c3QABjxpbml0PnNxAH4ADCc0FCh0AAVhcHBseXNxAH4ADLKpMS10AAI9PXNxAH4ADAhAtIR0AAZSZWNvcmRzcQB+AAxhFh8idAAFY2xvbmVzcQB+AAxzOmULdAABcHNxAH4ADLFd8bl0AAYkaW5pdCRzcQB+AAx+ch01dAAJaW5pdENhY2hlc3EAfgAMPaW7zHQABGNvcHlzcQB+AAyDs1gBdAADVkRCc3EAfgAMbUsUSHQACHRvU3RyaW5nc3EAfgAMA4ToqnQABGFyZ3NzcQB+AAzTUYn5dAACIT1zcQB+AAxZOs2HdAAIZ2V0Q2xhc3NzcQB+AAwmNy8jdAACbmVzcQB+AAwnAkB+dAACZXFzcQB+AAwYP7XqdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMwDIjZXQABXdyaXRlc3EAfgAMZCgm+nQAC2RlbGF5ZWRJbml0c3EAfgAMHvuhE3QAAiMjc3EAfgAMDh7KlnQACGZpbmFsaXplc3EAfgAMGfzV03QADnByb2R1Y3RFbGVtZW50c3EAfgAMQ2bV23QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ab3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQACXRyYW5zLlZEQnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Ah3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBvTAAJaW5oZXJpdGVkcQB+AG9MAAdwYXJlbnRzcQB+AG94cQB+AIxzcQB+AId1cQB+AGoAAAAAc3EAfgCHdXEAfgBqAAAAAHNxAH4Ah3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ai3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ai3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4ApHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4ApXNxAH4AmHQAA0FueXNxAH4AnHNxAH4An3VxAH4AogAAAAJzcQB+AKR0AAVzY2FsYXEAfgCrc3EAfgBscQB+AHl1cQB+AHoAAAAAc3EAfgB8AHQADXRyYW5zLlZEQlRlc3R1cQB+AH8AAAAAcQB+AIN1cQB+AIUAAAACdAAac2NhbGEuZGVwcmVjYXRlZE92ZXJyaWRpbmd0ABBzY2FsYS5kZXByZWNhdGVkc3EAfgCHcQB+AI1zcQB+AIdzcQB+AI9zcQB+AId1cQB+AGoAAAAAc3EAfgCHdXEAfgBqAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBwcQB+AHl1cQB+AHoAAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXEAfgDDeHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADUwABXZhbHVlcQB+AA14cHQAAHQAKigibWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4iLCIyLjExLjAiKXNxAH4AmHQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3EAfgCcc3EAfgCfdXEAfgCiAAAAAnNxAH4ApHEAfgCycQB+AKtzcQB+AHwAcQB+ACt1cQB+AH8AAAAAc3EAfgCYdAAEVW5pdHEAfgDSdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4Aw3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AgnQABVBsYWlucQB+AE9zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AJlbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AItzcQB+AJh0AAVBcnJheXEAfgDSdXEAfgCWAAAAAXNxAH4AmHQABlN0cmluZ3NxAH4AnHNxAH4An3VxAH4AogAAAANzcQB+AKRxAH4Ap3NxAH4ApHEAfgCpcQB+AKtzcQB+AId1cQB+AJYAAAAEc3EAfgCYdAADQXBwcQB+ANJzcQB+AJh0AAtEZWxheWVkSW5pdHEAfgDSc3EAfgCYcQB+AJtxAH4A73NxAH4AmHEAfgCtcQB+ANJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV0cmFuc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWdakrvR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABPQzpcVXNlcnNcbHVpc1xEb3dubG9hZHNcdHJhbnNhY3Rpb25zICgxKVx0cmFuc2FjdGlvbnNcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFA6plG1fbqJsB2wz9K5DxzjJAzt6
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwjB8rYwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA4c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwQ/FAX3QABm5vdGlmeXNxAH4ADJfzLa90AARuYW1lc3EAfgAMPwkQE3QAA3ExcHNxAH4ADKnHVRd0AAR3YWl0c3EAfgAMX252n3QADSRhc0luc3RhbmNlT2ZzcQB+AAw4g9kQdAAEc2l6ZXNxAH4ADMBOE+l0AAZwcmludEdzcQB+AAzLKzosdAAGZXF1YWxzc3EAfgAMGNJ5sXQAAnBhc3EAfgAMVRBwZnQAA2cxcHNxAH4ADG5MM7J0AAJnMnNxAH4ADPhYved0AAxhc0luc3RhbmNlT2ZzcQB+AAwtwfJIdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAzZTG85dAAFR3JhcGhzcQB+AAz71yAudAANYnVpbGRMYWJlbE1hcHNxAH4ADII0/J10AAxzeW5jaHJvbml6ZWRzcQB+AAwbeG6udAAFbGFiZWxzcQB+AAzbODxUdAANJGlzSW5zdGFuY2VPZnNxAH4ADOUOabJ0AAZuRWRnZXNzcQB+AAxDnybhdAAQPGluaXQ+JGRlZmF1bHQkNHNxAH4ADNXsLvB0ABBwcmludEckZGVmYXVsdCQxc3EAfgAMCxtl7nQACUdyYXBoVGVzdHNxAH4ADIDiAZB0AAJnMXNxAH4ADJVQreJ0AARtYWluc3EAfgAMPzW9MXQACmNoZWNrRWRnZXNzcQB+AAyc6BA8dAAHaW52ZXJzZXNxAH4ADLUyoaV0AAJjaHNxAH4ADExxeSR0AAlub3RpZnlBbGxzcQB+AAzugEKndAAMaXNJbnN0YW5jZU9mc3EAfgAMnlCpYXQAEDxpbml0PiRkZWZhdWx0JDNzcQB+AAzlNCxodAAGPGluaXQ+c3EAfgAM6JydxnQAFGdldFZlcnRpY2VzV2l0aExhYmVsc3EAfgAM4ewtrnQABHNhbWVzcQB+AAzTK3ccdAAQdG9MaW5lJGRlZmF1bHQkMnNxAH4ADF14GOt0AAZhZGRQYXJzcQB+AAyp2puhdAACPT1zcQB+AAylpFLpdAAFY2xvbmVzcQB+AAzG7SGMdAAGJGluaXQkc3EAfgAMwb+elHQACHRvU3RyaW5nc3EAfgAMUbp0NHQABGFyZ3NzcQB+AAy1IEPKdAACIT1zcQB+AAziSVL/dAAKblNlbGZMb29wc3NxAH4ADEx3NF50AAhnZXRDbGFzc3NxAH4ADIzvHmd0AAJxMXNxAH4ADPDLgsN0AAJuZXNxAH4ADMZ/a8x0AANnMnBzcQB+AAx5460ndAAQPGluaXQ+JGRlZmF1bHQkMnNxAH4ADIX2hyd0AAJlcXNxAH4ADAevCvR0AANxMnBzcQB+AAz+LrcAdAALZGVsYXllZEluaXRzcQB+AAyo3D+JdAACIyNzcQB+AAzJj9jNdAAIZmluYWxpemVzcQB+AAzP9+wvdAAIbGFiZWxNYXBzcQB+AAwch1aQdAAIaGFzaENvZGVzcQB+AAy7DiHJdAACcTJzcQB+AAxhNtWQdAAGdG9MaW5lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ah3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAC3RyYW5zLkdyYXBodXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0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b2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4A+3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AmnQABVBsYWlucQB+AF1zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+ALFbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AKNzcQB+ALB0AAVBcnJheXEAfgEKdXEAfgCuAAAAAXNxAH4AsHQABlN0cmluZ3NxAH4AtHNxAH4At3VxAH4AugAAAANzcQB+ALxxAH4AyHNxAH4AvHEAfgDKcQB+AMFzcQB+AJ91cQB+AK4AAAAEc3EAfgCwdAADQXBwcQB+AQpzcQB+ALB0AAtEZWxheWVkSW5pdHEAfgEKc3EAfgCwcQB+AMxxAH4BJ3NxAH4AsHEAfgDOcQB+AQp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV0cmFuc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWdakrvR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABPQzpcVXNlcnNcbHVpc1xEb3dubG9hZHNcdHJhbnNhY3Rpb25zICgxKVx0cmFuc2FjdGlvbnNcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFMXUWEgHVQGsmgxo+4tPP5T1uY5i
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwly57LwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAmc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwywAXgXQADFNjaGVkdWxlVGVzdHNxAH4ADBd+6rh0AAZub3RpZnlzcQB+AAwvPXaOdAAEd2FpdHNxAH4ADFsowVR0AA0kYXNJbnN0YW5jZU9mc3EAfgAMMeNVc3QABmVxdWFsc3NxAH4ADC6jupx0AAxhc0luc3RhbmNlT2ZzcQB+AAzGBNdEdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAwiR+HmdAAMc3luY2hyb25pemVkc3EAfgAMWgRKVnQADSRpc0luc3RhbmNlT2ZzcQB+AAwfdsxhdAACczJzcQB+AAwD0fdBdAACT3BzcQB+AAyrxA8ldAAJY29uZmxpY3Rzc3EAfgAM1CGRBnQABG1haW5zcQB+AAy6nol5dAAJbm90aWZ5QWxsc3EAfgAMas5m/XQADGlzSW5zdGFuY2VPZnNxAH4ADF0y8BN0AAlPcGVyYXRpb25zcQB+AAzyBddbdAAGPGluaXQ+c3EAfgAMTErgB3QAAnMxc3EAfgAM4K2Ns3QAAj09c3EAfgAMrIoT53QABWNsb25lc3EAfgAMH89cbnQAB2ZvcmVhY2hzcQB+AAx8reM0dAAGJGluaXQkc3EAfgAMDkRFPHQACHRvU3RyaW5nc3EAfgAMH/DGqHQABGFyZ3NzcQB+AAw3T+8CdAACIT1zcQB+AAxPESJOdAAIZ2V0Q2xhc3NzcQB+AAzUx5JOdAAIU2NoZWR1bGVzcQB+AAyJ+m4edAABcnNxAH4ADBYR+K90AAF3c3EAfgAMFaqEy3QABWlzQ1NSc3EAfgAM1eTbE3QAAm5lc3EAfgAMsiFpo3QAAmVxc3EAfgAMGj1NCXQAA2dlbnNxAH4ADOSJdUR0AAtkZWxheWVkSW5pdHNxAH4ADFoyjHl0AAIjI3NxAH4ADJ/u5xB0AAhmaW5hbGl6ZXNxAH4ADJ0mG/t0AAhoYXNoQ29kZXNxAH4ADAbe27p0AAVpc1ZTUnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAARzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0AA90cmFucy5PcGVyYXRpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHtzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AY0wACWluaGVyaXRlZHEAfgBjTAAHcGFyZW50c3EAfgBjeHEAfgCAc3EAfgB7dXEAfgBeAAAAAHNxAH4Ae3VxAH4AXgAAAABzcQB+AHt1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AH90AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AH9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AJh0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJlzcQB+AIx0AANBbnlzcQB+AJBzcQB+AJN1cQB+AJYAAAACc3EAfgCYdAAFc2NhbGFxAH4An3NxAH4AYHEAfgBtdXEAfgBuAAAAAHNxAH4AcAB0AA50cmFucy5TY2hlZHVsZXVxAH4AcwAAAAB+cQB+AHV0AAhDbGFzc0RlZnVxAH4AeQAAAABzcQB+AHtxAH4AgXNxAH4Ae3NxAH4Ag3NxAH4Ae3VxAH4AXgAAAABzcQB+AHt1cQB+AF4AAAAAc3EAfgB7dXEAfgCKAAAAAnNxAH4AjHEAfgCPc3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHEAfgCbc3EAfgCYcQB+AJ1xAH4An3NxAH4AjHEAfgChc3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHEAfgCmcQB+AJ9zcQB+AGBxAH4AbXVxAH4AbgAAAABzcQB+AHAAdAAOdHJhbnMuU2NoZWR1bGV1cQB+AHMAAAAAcQB+AHd1cQB+AHkAAAAAc3EAfgB7cQB+AIFzcQB+AHtzcQB+AINzcQB+AHt1cQB+AF4AAAAAc3EAfgB7dXEAfgBeAAAAAHNxAH4Ae3VxAH4AigAAAAJzcQB+AIxxAH4Aj3NxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Am3NxAH4AmHEAfgCdcQB+AJ9zcQB+AIxxAH4AoXNxAH4AkHNxAH4Ak3VxAH4AlgAAAAJzcQB+AJhxAH4ApnEAfgCfc3EAfgBgcQB+AG11cQB+AG4AAAAAc3EAfgBwAHQAEnRyYW5zLlNjaGVkdWxlVGVzdHVxAH4AcwAAAABxAH4Ad3VxAH4AeQAAAAJ0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3QAEHNjYWxhLmRlcHJlY2F0ZWRzcQB+AHtxAH4AgXNxAH4Ae3NxAH4Ag3NxAH4Ae3VxAH4AXgAAAABzcQB+AHt1cQB+AF4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AGRxAH4AbXVxAH4AbgAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AO14cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3EAfgCMdAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcQB+AJBzcQB+AJN1cQB+AJYAAAACc3EAfgCYcQB+AKZxAH4An3NxAH4AcABxAH4AJ3VxAH4AcwAAAABzcQB+AIx0AARVbml0cQB+APx1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgDteHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgB2dAAFUGxhaW5xAH4APXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AjVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Af3NxAH4AjHQABUFycmF5cQB+APx1cQB+AIoAAAABc3EAfgCMdAAGU3RyaW5nc3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHEAfgCbc3EAfgCYcQB+AJ1xAH4An3NxAH4Ae3VxAH4AigAAAARzcQB+AIx0AANBcHBxAH4A/HNxAH4AjHQAC0RlbGF5ZWRJbml0cQB+APxzcQB+AIxxAH4Aj3EAfgEZc3EAfgCMcQB+AKFxAH4A/HVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXRyYW5zc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFZ1qSu9HVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AE9DOlxVc2Vyc1xsdWlzXERvd25sb2Fkc1x0cmFuc2FjdGlvbnMgKDEpXHRyYW5zYWN0aW9uc1x0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUKzMTU8q52RnCJDBwu7z2KHgcbH0=
+8 items
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwjB8rYwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA4c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwQ/FAX3QABm5vdGlmeXNxAH4ADJfzLa90AARuYW1lc3EAfgAMPwkQE3QAA3ExcHNxAH4ADKnHVRd0AAR3YWl0c3EAfgAMX252n3QADSRhc0luc3RhbmNlT2ZzcQB+AAw4g9kQdAAEc2l6ZXNxAH4ADMBOE+l0AAZwcmludEdzcQB+AAzLKzosdAAGZXF1YWxzc3EAfgAMGNJ5sXQAAnBhc3EAfgAMVRBwZnQAA2cxcHNxAH4ADG5MM7J0AAJnMnNxAH4ADPhYved0AAxhc0luc3RhbmNlT2ZzcQB+AAwtwfJIdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAzZTG85dAAFR3JhcGhzcQB+AAz71yAudAANYnVpbGRMYWJlbE1hcHNxAH4ADII0/J10AAxzeW5jaHJvbml6ZWRzcQB+AAwbeG6udAAFbGFiZWxzcQB+AAzbODxUdAANJGlzSW5zdGFuY2VPZnNxAH4ADOUOabJ0AAZuRWRnZXNzcQB+AAxDnybhdAAQPGluaXQ+JGRlZmF1bHQkNHNxAH4ADNXsLvB0ABBwcmludEckZGVmYXVsdCQxc3EAfgAMCxtl7nQACUdyYXBoVGVzdHNxAH4ADIDiAZB0AAJnMXNxAH4ADJVQreJ0AARtYWluc3EAfgAMPzW9MXQACmNoZWNrRWRnZXNzcQB+AAyc6BA8dAAHaW52ZXJzZXNxAH4ADLUyoaV0AAJjaHNxAH4ADExxeSR0AAlub3RpZnlBbGxzcQB+AAzugEKndAAMaXNJbnN0YW5jZU9mc3EAfgAMnlCpYXQAEDxpbml0PiRkZWZhdWx0JDNzcQB+AAzlNCxodAAGPGluaXQ+c3EAfgAM6JydxnQAFGdldFZlcnRpY2VzV2l0aExhYmVsc3EAfgAM4ewtrnQABHNhbWVzcQB+AAzTK3ccdAAQdG9MaW5lJGRlZmF1bHQkMnNxAH4ADF14GOt0AAZhZGRQYXJzcQB+AAyp2puhdAACPT1zcQB+AAylpFLpdAAFY2xvbmVzcQB+AAzG7SGMdAAGJGluaXQkc3EAfgAMwb+elHQACHRvU3RyaW5nc3EAfgAMUbp0NHQABGFyZ3NzcQB+AAy1IEPKdAACIT1zcQB+AAziSVL/dAAKblNlbGZMb29wc3NxAH4ADEx3NF50AAhnZXRDbGFzc3NxAH4ADIzvHmd0AAJxMXNxAH4ADPDLgsN0AAJuZXNxAH4ADMZ/a8x0AANnMnBzcQB+AAx5460ndAAQPGluaXQ+JGRlZmF1bHQkMnNxAH4ADIX2hyd0AAJlcXNxAH4ADAevCvR0AANxMnBzcQB+AAz+LrcAdAALZGVsYXllZEluaXRzcQB+AAyo3D+JdAACIyNzcQB+AAzJj9jNdAAIZmluYWxpemVzcQB+AAzP9+wvdAAIbGFiZWxNYXBzcQB+AAwch1aQdAAIaGFzaENvZGVzcQB+AAy7DiHJdAACcTJzcQB+AAxhNtWQdAAGdG9MaW5lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ah3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAC3RyYW5zLkdyYXBodXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J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ob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4A+3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AmnQABVBsYWlucQB+AF1zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+ALFbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AKNzcQB+ALB0AAVBcnJheXEAfgEKdXEAfgCuAAAAAXNxAH4AsHQABlN0cmluZ3NxAH4AtHNxAH4At3VxAH4AugAAAANzcQB+ALxxAH4AyHNxAH4AvHEAfgDKcQB+AMFzcQB+AJ91cQB+AK4AAAAEc3EAfgCwdAADQXBwcQB+AQpzcQB+ALB0AAtEZWxheWVkSW5pdHEAfgEKc3EAfgCwcQB+AMxxAH4BJ3NxAH4AsHEAfgDOcQB+AQp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV0cmFuc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWjokBzZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABEQzpcVXNlcnNcbHVpc1xEb2N1bWVudHNcYWR2RGJcYWR2RGF0YWJhc2VzXHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTF1FhIB1UBrJoMaPuLTz+U9bmOYg==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwTsawiwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw4dxZGHQABm5vdGlmeXNxAH4ADKl8Mlx0AAlMb2NrVGFibGVzcQB+AAwnOSfXdAAEd2FpdHNxAH4ADBCsODF0AA0kYXNJbnN0YW5jZU9mc3EAfgAMyW/uCHQABmVxdWFsc3NxAH4ADJwY4Vl0AAdsb2NrbWFwc3EAfgAM3rSmCHQADGFzSW5zdGFuY2VPZnNxAH4ADGOM4aN0AAJ1bHNxAH4ADL8W0C50AAxzeW5jaHJvbml6ZWRzcQB+AAxxhe8XdAANJGlzSW5zdGFuY2VPZnNxAH4ADCb05wF0AARsb2Nrc3EAfgAMKLwQrHQACW5vdGlmeUFsbHNxAH4ADMRnU8h0AAxpc0luc3RhbmNlT2ZzcQB+AAyfsyNQdAAGPGluaXQ+c3EAfgAMuN6qoXQAAj09c3EAfgAMx5R063QABWNsb25lc3EAfgAMHohHQHQAAnJsc3EAfgAMsttIi3QACHRvU3RyaW5nc3EAfgAMQB3x03QABExvY2tzcQB+AAyNwrGRdAACIT1zcQB+AAzifwf6dAACd2xzcQB+AAy8hx1qdAAIZ2V0Q2xhc3NzcQB+AAz1tprrdAACbmVzcQB+AAzBJMGVdAACZXFzcQB+AAyUqKDbdAACIyNzcQB+AAxBl8pLdAAIZmluYWxpemVzcQB+AAw/Ft73dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBNeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAPdHJhbnMuTG9ja1RhYmxldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBlc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4AanNxAH4AZXVxAH4ASAAAAABzcQB+AGV1cQB+AEgAAAAAc3EAfgBldXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBpdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBpc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCCdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCDc3EAfgB2dAADQW55c3EAfgB6c3EAfgB9dXEAfgCAAAAAAnNxAH4AgnQABXNjYWxhcQB+AIl1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV0cmFuc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWjokBzZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABEQzpcVXNlcnNcbHVpc1xEb2N1bWVudHNcYWR2RGJcYWR2RGF0YWJhc2VzXHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRgf9pk0SrjCHLJrzJ2E4fqsQXQZQ==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwS1MTUQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAABKc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwUshcoHQABm5vdGlmeXNxAH4ADPpAPet0AAZyZXN1bWVzcQB+AAwcfr/TdAAEd2FpdHNxAH4ADM10CvB0AAdpc0FsaXZlc3EAfgAMrPFpYHQAFXRocmVhZExvY2FsUmFuZG9tU2VlZHNxAH4ADMkFnPF0AA0kYXNJbnN0YW5jZU9mc3EAfgAMd+U1enQAB3NldE5hbWVzcQB+AAwTkOgAdAAVZ2V0Q29udGV4dENsYXNzTG9hZGVyc3EAfgAM2TNSa3QABGpvaW5zcQB+AAwjHgQzdAAHUERCVGVzdHNxAH4ADMxlI990AAZlcXVhbHNzcQB+AAxBQm0PdAALc2V0UHJpb3JpdHlzcQB+AAytDvW0dAAGTG9nUmVjc3EAfgAM9P6b2nQAB1JlY292ZXJzcQB+AAyT44zCdAAPbG9nUmVjb3JkdG9CeXRlc3EAfgAMT8qLwnQAC3BhcmtCbG9ja2Vyc3EAfgAMF4hvz3QAFnRocmVhZExvY2FsUmFuZG9tUHJvYmVzcQB+AAyniehodAAMYXNJbnN0YW5jZU9mc3EAfgAM4pbQ83QADmV4ZWN1dGlvblN0YXJ0c3EAfgAMAAvEtnQAA3J1bnNxAH4ADDCd/i10AAtnZXRQcmlvcml0eXNxAH4ADPiqbPF0AAxzeW5jaHJvbml6ZWRzcQB+AAw6YiqGdAAFc2xlZXBzcQB+AAwYIA/sdAAJYmxvY2tlZE9uc3EAfgAMs4uPbXQADSRpc0luc3RhbmNlT2ZzcQB+AAzBLKYCdAALY2hlY2tBY2Nlc3NzcQB+AAxQwktgdAAOdW5jb21taXRlZExpc3RzcQB+AAyHuo82dAAFc3RvcmVzcQB+AAwg+dZMdAAHc3VzcGVuZHNxAH4ADJNOKMx0AApjb21taXRMaXN0c3EAfgAME08h/3QABG1haW5zcQB+AAxtwajidAAbZ2V0VW5jYXVnaHRFeGNlcHRpb25IYW5kbGVyc3EAfgAMFLGYgXQADmdldFRocmVhZEdyb3Vwc3EAfgAM/zMU83QABHN0b3BzcQB+AAw15P0CdAAJbm90aWZ5QWxsc3EAfgAMrbOYTXQAB2dldE5hbWVzcQB+AAwUHM+PdAANaXNJbnRlcnJ1cHRlZHNxAH4ADF/x6pt0AAxpc0luc3RhbmNlT2ZzcQB+AAyeeI/2dAAIZ2V0U3RhdGVzcQB+AAy63EqfdAANZ2V0U3RhY2tUcmFjZXNxAH4ADBkVAaZ0AAY8aW5pdD5zcQB+AAzKws5sdAAHZGVzdHJveXNxAH4ADL4qwqV0AAh3cml0ZUxvZ3NxAH4ADN5gi7l0ABFmcm9tQnl0ZXN0b1JlY29yZHNxAH4ADDLeDoN0AApDaGVja1BvaW50c3EAfgAMWzAa/HQAAj09c3EAfgAMYONycXQABlJlY29yZHNxAH4ADMTRQ150AAVjbG9uZXNxAH4ADIqIa+F0AAlzZXREYWVtb25zcQB+AAzqyigydAAXaW5oZXJpdGFibGVUaHJlYWRMb2NhbHNzcQB+AAx3tKKxdAAGJGluaXQkc3EAfgAMpRgSE3QAA1BEQnNxAH4ADCcWG3x0AAphY3RpdmVMaXN0c3EAfgAMOZjET3QAFXNldENvbnRleHRDbGFzc0xvYWRlcnNxAH4ADKRAhXp0AAx0aHJlYWRMb2NhbHNzcQB+AAxC8ShIdAAIdG9TdHJpbmdzcQB+AAxwAM54dAAEYXJnc3NxAH4ADGvY7tR0AAhpc0RhZW1vbnNxAH4ADKk+Cs10AAIhPXNxAH4ADPqHn7p0AAhnZXRDbGFzc3NxAH4ADEXiCdt0ABtzZXRVbmNhdWdodEV4Y2VwdGlvbkhhbmRsZXJzcQB+AAx5xig0dAAQY291bnRTdGFja0ZyYW1lc3NxAH4ADAK1iQF0AAVzdGFydHNxAH4ADCKsK6Z0AAJuZXNxAH4ADBZWBNB0AAVnZXRJZHNxAH4ADDt8jvJ0AB50aHJlYWRMb2NhbFJhbmRvbVNlY29uZGFyeVNlZWRzcQB+AAzH1JM3dAACZXFzcQB+AAyUCJ5UdAAJaW50ZXJydXB0c3EAfgAMUE0vInQAA2xvZ3NxAH4ADKTEvUN0AAtkZWxheWVkSW5pdHNxAH4ADCX5ycZ0AAIjI3NxAH4ADB/bagh0AAhmaW5hbGl6ZXNxAH4ADBfDwl90AAp3cml0ZVN0b3Jlc3EAfgAMoyMhFnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Aq3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAEHRyYW5zLkNoZWNrUG9pbnR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAN0ABtzdW4ucmVmbGVjdC5DYWxsZXJTZW5zaXRpdmV0ABRqYXZhLmxhbmcuRGVwcmVjYXRlZHQAEHNjYWxhLmRlcHJlY2F0ZWRzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AxnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCrTAAJaW5oZXJpdGVkcQB+AKtMAAdwYXJlbnRzcQB+AKt4cQB+AMtzcQB+AMZ1cQB+AKYAAAAAc3EAfgDGdXEAfgCmAAAAAHNxAH4AxnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXB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04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4BQ3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AvnQABVBsYWlucQB+AH9zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+ANhbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AMpzcQB+ANd0AAVBcnJheXEAfgFSdXEAfgDVAAAAAXNxAH4A13QABlN0cmluZ3NxAH4A23NxAH4A3nVxAH4A4QAAAANzcQB+AONxAH4A5nNxAH4A43EAfgDocQB+AOpzcQB+AMZ1cQB+ANUAAAAEc3EAfgDXdAADQXBwcQB+AVJzcQB+ANd0AAtEZWxheWVkSW5pdHEAfgFSc3EAfgDXcQB+AO5xAH4Bb3NxAH4A13EAfgDwcQB+AVJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV0cmFuc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWjokBzZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABEQzpcVXNlcnNcbHVpc1xEb2N1bWVudHNcYWR2RGJcYWR2RGF0YWJhc2VzXHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSYCqZr2Dhbgh2pJnEtVTcl03Mgmg==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw8aodlgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAoc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwywAXgXQADFNjaGVkdWxlVGVzdHNxAH4ADBd+6rh0AAZub3RpZnlzcQB+AAwvPXaOdAAEd2FpdHNxAH4ADDzP8OV0AAdpbmRpY2Vzc3EAfgAMWyjBVHQADSRhc0luc3RhbmNlT2ZzcQB+AAwx41VzdAAGZXF1YWxzc3EAfgAMLqO6nHQADGFzSW5zdGFuY2VPZnNxAH4ADMYE10R0AA5leGVjdXRpb25TdGFydHNxAH4ADCJH4eZ0AAxzeW5jaHJvbml6ZWRzcQB+AAxaBEpWdAANJGlzSW5zdGFuY2VPZnNxAH4ADB92zGF0AAJzMnNxAH4ADAPR90F0AAJPcHNxAH4ADKvEDyV0AAljb25mbGljdHNzcQB+AAzUIZEGdAAEbWFpbnNxAH4ADLqeiXl0AAlub3RpZnlBbGxzcQB+AAxqzmb9dAAMaXNJbnN0YW5jZU9mc3EAfgAMXTLwE3QACU9wZXJhdGlvbnNxAH4ADPIF11t0AAY8aW5pdD5zcQB+AAx9NdBydAAFYXBwbHlzcQB+AAxMSuAHdAACczFzcQB+AAzgrY2zdAACPT1zcQB+AAysihPndAAFY2xvbmVzcQB+AAwfz1xudAAHZm9yZWFjaHNxAH4ADHyt4zR0AAYkaW5pdCRzcQB+AAwOREU8dAAIdG9TdHJpbmdzcQB+AAwf8MaodAAEYXJnc3NxAH4ADDdP7wJ0AAIhPXNxAH4ADE8RIk50AAhnZXRDbGFzc3NxAH4ADNTHkk50AAhTY2hlZHVsZXNxAH4ADIn6bh50AAFyc3EAfgAMFhH4r3QAAXdzcQB+AAwVqoTLdAAFaXNDU1JzcQB+AAzV5NsTdAACbmVzcQB+AAyyIWmjdAACZXFzcQB+AAwaPU0JdAADZ2Vuc3EAfgAM5Il1RHQAC2RlbGF5ZWRJbml0c3EAfgAMWjKMeXQAAiMjc3EAfgAMn+7nEHQACGZpbmFsaXplc3EAfgAMnSYb+3QACGhhc2hDb2Rlc3EAfgAMBt7bunQABWlzVlNSc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AZ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAD3RyYW5zLk9wZXJhdGlvbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Af3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBnTAAJaW5oZXJpdGVkcQB+AGdMAAdwYXJlbnRzcQB+AGd4cQB+AIRzcQB+AH91cQB+AGIAAAAAc3EAfgB/dXEAfgBiAAAAAHNxAH4Af3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ag3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ag3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AnHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AnXNxAH4AkHQAA0FueXNxAH4AlHNxAH4Al3VxAH4AmgAAAAJzcQB+AJx0AAVzY2FsYXEAfgCjc3EAfgBkcQB+AHF1cQB+AHIAAAAAc3EAfgB0AHQADnRyYW5zLlNjaGVkdWxldXEAfgB3AAAAAH5xAH4AeXQACENsYXNzRGVmdXEAfgB9AAAAAHNxAH4Af3EAfgCFc3EAfgB/c3EAfgCHc3EAfgB/dXEAfgBiAAAAAHNxAH4Af3VxAH4AYgAAAABzcQB+AH91cQB+AI4AAAACc3EAfgCQcQB+AJNzcQB+AJRzcQB+AJd1cQB+AJoAAAADc3EAfgCccQB+AJ9zcQB+AJxxAH4AoXEAfgCjc3EAfgCQcQB+AKVzcQB+AJRzcQB+AJd1cQB+AJoAAAACc3EAfgCccQB+AKpxAH4Ao3NxAH4AZHEAfgBxdXEAfgByAAAAAHNxAH4AdAB0AA50cmFucy5TY2hlZHVsZXVxAH4AdwAAAABxAH4Ae3VxAH4AfQAAAABzcQB+AH9xAH4AhXNxAH4Af3NxAH4Ah3NxAH4Af3VxAH4AYgAAAABzcQB+AH91cQB+AGIAAAAAc3EAfgB/dXEAfgCOAAAAAnNxAH4AkHEAfgCTc3EAfgCUc3EAfgCXdXEAfgCaAAAAA3NxAH4AnHEAfgCfc3EAfgCccQB+AKFxAH4Ao3NxAH4AkHEAfgClc3EAfgCUc3EAfgCXdXEAfgCaAAAAAnNxAH4AnHEAfgCqcQB+AKNzcQB+AGRxAH4AcXVxAH4AcgAAAABzcQB+AHQAdAASdHJhbnMuU2NoZWR1bGVUZXN0dXEAfgB3AAAAAHEAfgB7dXEAfgB9AAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNxAH4Af3EAfgCFc3EAfgB/c3EAfgCHc3EAfgB/dXEAfgBiAAAAAHNxAH4Af3VxAH4AYgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AaHEAfgBxdXEAfgByAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4A8XhwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcQB+AJB0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4AlHNxAH4Al3VxAH4AmgAAAAJzcQB+AJxxAH4AqnEAfgCjc3EAfgB0AHEAfgApdXEAfgB3AAAAAHNxAH4AkHQABFVuaXRxAH4BAHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+APF4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AHp0AAVQbGFpbnEAfgBBc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCRWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCDc3EAfgCQdAAFQXJyYXlxAH4BAHVxAH4AjgAAAAFzcQB+AJB0AAZTdHJpbmdzcQB+AJRzcQB+AJd1cQB+AJoAAAADc3EAfgCccQB+AJ9zcQB+AJxxAH4AoXEAfgCjc3EAfgB/dXEAfgCOAAAABHNxAH4AkHQAA0FwcHEAfgEAc3EAfgCQdAALRGVsYXllZEluaXRxAH4BAHNxAH4AkHEAfgCTcQB+AR1zcQB+AJBxAH4ApXEAfgEAdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAFdHJhbnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVo6JAc2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAREM6XFVzZXJzXGx1aXNcRG9jdW1lbnRzXGFkdkRiXGFkdkRhdGFiYXNlc1x0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUa9GnPG70h+Htg+iOBM5V+iVUmuQ=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwOq5oZAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAABQc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwuq0UoHQABm5vdGlmeXNxAH4ADNhPHSR0AARyZWFkc3EAfgAMGhOOEXQACW5leHRDb3VudHNxAH4ADIWe1DZ0AAViZWdpbnNxAH4ADN2xjRZ0AAVjb3VudHNxAH4ADGuaWKZ0AAZyZXN1bWVzcQB+AAwHglvAdAAEd2FpdHNxAH4ADI7J8MB0AAtUcmFuc2FjdGlvbnNxAH4ADNtRmrZ0AAdpc0FsaXZlc3EAfgAMMZZXKHQACXN0YXJ0VGltZXNxAH4ADGRd1lx0ABV0aHJlYWRMb2NhbFJhbmRvbVNlZWRzcQB+AAwT/5DbdAANJGFzSW5zdGFuY2VPZnNxAH4ADL49iip0AAdzZXROYW1lc3EAfgAMLCXy0nQABmNvbW1pdHNxAH4ADG3M9NF0ABVnZXRDb250ZXh0Q2xhc3NMb2FkZXJzcQB+AAxjvcKrdAAEam9pbnNxAH4ADPg2QbB0AAZlcXVhbHNzcQB+AAzb2yGhdAABanNxAH4ADM108Ud0AAtzZXRQcmlvcml0eXNxAH4ADOHCdOZ0AAtwYXJrQmxvY2tlcnNxAH4ADKYMlaJ0ABZ0aHJlYWRMb2NhbFJhbmRvbVByb2Jlc3EAfgAMMZ1Yx3QADGFzSW5zdGFuY2VPZnNxAH4ADK4RXGZ0AA5leGVjdXRpb25TdGFydHNxAH4ADD63sOl0AANydW5zcQB+AAzd6aEbdAALZ2V0UHJpb3JpdHlzcQB+AAx5zcZGdAAMc3luY2hyb25pemVkc3EAfgAMqmV1H3QACWJsb2NrZWRPbnNxAH4ADKgE2kF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMHmQsYnQAC2NoZWNrQWNjZXNzc3EAfgAMMz8mlHQAB3N1c3BlbmRzcQB+AAytLbEhdAAPVHJhbnNhY3Rpb25UZXN0c3EAfgAMwCwtm3QABG1haW5zcQB+AAyIYQ64dAAbZ2V0VW5jYXVnaHRFeGNlcHRpb25IYW5kbGVyc3EAfgAMZgRPCXQADmdldFRocmVhZEdyb3Vwc3EAfgAMXKSNOnQABHN0b3BzcQB+AAyBukvXdAAJbm90aWZ5QWxsc3EAfgAMMafElXQAB2dldE5hbWVzcQB+AAxDKdLNdAADdHBzc3EAfgAMRKGzinQADWlzSW50ZXJydXB0ZWRzcQB+AAwt5p91dAAMaXNJbnN0YW5jZU9mc3EAfgAMynce43QACGdldFN0YXRlc3EAfgAMbLtysXQADWdldFN0YWNrVHJhY2VzcQB+AAzykrzjdAAHZW5kVGltZXNxAH4ADKBJxph0AAhyb2xsYmFja3NxAH4ADFY9rbx0AAY8aW5pdD5zcQB+AAwnpS4WdAAHZGVzdHJveXNxAH4ADC38HLp0AAN0c29zcQB+AAySfJ7AdAACPT1zcQB+AAxUpymxdAAFY2xvbmVzcQB+AAyNULtbdAAJc2V0RGFlbW9uc3EAfgAMNtvntXQAF2luaGVyaXRhYmxlVGhyZWFkTG9jYWxzc3EAfgAMnaM5J3QABiRpbml0JHNxAH4ADCOlhj50ABVzZXRDb250ZXh0Q2xhc3NMb2FkZXJzcQB+AAwXbmOgdAAQVHJhbnNhY3Rpb25TdGF0c3NxAH4ADKtc8Wd0AAx0aHJlYWRMb2NhbHNzcQB+AAxburF5dAADZW5kc3EAfgAMrvNSDHQACHRvU3RyaW5nc3EAfgAM5+IxOHQABGFyZ3NzcQB+AAzR0FePdAAIaXNEYWVtb25zcQB+AAzMRQaCdAACIT1zcQB+AAxHHWgCdAAIVFNPcHJvdG9zcQB+AAxDzJ6SdAAFVHdvUExzcQB+AAy4CS13dAAIZ2V0Q2xhc3NzcQB+AAwWcJY1dAAGb3V0cHV0c3EAfgAMMrqBQXQAG3NldFVuY2F1Z2h0RXhjZXB0aW9uSGFuZGxlcnNxAH4ADHgnEn90ABBjb3VudFN0YWNrRnJhbWVzc3EAfgAMdW3tWXQABXN0YXJ0c3EAfgAM3P5UB3QADk5VTUJFUl9USFJFQURTc3EAfgAMiao+pnQAAm5lc3EAfgAMH4V1EHQACXRvdGFsVGltZXNxAH4ADB9Dykl0AAVnZXRJZHNxAH4ADLMSt2p0AAVyb2xsc3NxAH4ADD8Akql0AB50aHJlYWRMb2NhbFJhbmRvbVNlY29uZGFyeVNlZWRzcQB+AAxtI9a8dAACZXFzcQB+AAzTw0JZdAAJaW50ZXJydXB0c3EAfgAMjFBXi3QABXdyaXRlc3EAfgAMXZpPS3QAC2RlbGF5ZWRJbml0c3EAfgAMXxn5GHQAAiMjc3EAfgAMSHDmSXQACGZpbmFsaXplc3EAfgAMWyLcEnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4At3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAFnRyYW5zLlRyYW5zYWN0aW9uU3RhdHN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AM9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4At0wACWluaGVyaXRlZHEAfgC3TAAHcGFyZW50c3EAfgC3eHEAfgDUc3EAfgDPdXEAfgCyAAAAAHNxAH4Az3VxAH4AsgAAAABzcQB+AM91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUw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yTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgFIeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgDKdAAFUGxhaW5xAH4AgXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4A4VsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4A03NxAH4A4HQABUFycmF5cQB+AVd1cQB+AN4AAAABc3EAfgDgdAAGU3RyaW5nc3EAfgDkc3EAfgDndXEAfgDqAAAAA3NxAH4A7HEAfgDvc3EAfgDscQB+APFxAH4A83NxAH4Az3VxAH4A3gAAAARzcQB+AOB0AANBcHBxAH4BV3NxAH4A4HQAC0RlbGF5ZWRJbml0cQB+AVdzcQB+AOBxAH4A43EAfgF0c3EAfgDgcQB+APVxAH4BV3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXRyYW5zc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFaOiQHNnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AERDOlxVc2Vyc1xsdWlzXERvY3VtZW50c1xhZHZEYlxhZHZEYXRhYmFzZXNcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFLfJBXC8Gu1tGslRl54kvH4HevU4
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction2pl.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFaOiQHNnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABEQzpcVXNlcnNcbHVpc1xEb2N1bWVudHNcYWR2RGJcYWR2RGF0YWJhc2VzXHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTcIRHjNLrmGO73zCrC42YfOtNt9A==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwhhn01gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw8TPfRHQABm5vdGlmeXNxAH4ADEyy9BJ0AAR3YWl0c3EAfgAM/QRwQXQADmNvcHkkZGVmYXVsdCQyc3EAfgAM7CFM33QADSRhc0luc3RhbmNlT2ZzcQB+AAw7lSYJdAADbWFwc3EAfgAMgVK3HnQADHByb2R1Y3RBcml0eXNxAH4ADGTD9DN0AAZlcXVhbHNzcQB+AAxecAJcdAAMYXNJbnN0YW5jZU9mc3EAfgAMOODsoXQADHN5bmNocm9uaXplZHNxAH4ADKmS/HF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMjsRw03QACGNhbkVxdWFsc3EAfgAMzNSZn3QADXByb2R1Y3RQcmVmaXhzcQB+AAyW5yBLdAAJbm90aWZ5QWxsc3EAfgAMloGlEXQAA1Rzb3NxAH4ADAuRkm90AAxpc0luc3RhbmNlT2ZzcQB+AAyqsc4MdAAOcmVhZF90aW1lc3RhbXBzcQB+AAzVMfw7dAAGPGluaXQ+c3EAfgAMirwNV3QAAj09c3EAfgAMWhep5XQABWNsb25lc3EAfgAM4toT+XQABiRpbml0JHNxAH4ADElEboN0AARjb3B5c3EAfgAMDmJyQnQACHRvU3RyaW5nc3EAfgAMwyCfM3QAAiE9c3EAfgAMAre2y3QACGdldENsYXNzc3EAfgAMi4ROa3QADmNvcHkkZGVmYXVsdCQxc3EAfgAMylUTcnQAD3dyaXRlX3RpbWVzdGFtcHNxAH4ADLoSvWR0AAhjaGVja1Rzb3NxAH4ADHc5Hyp0AAJuZXNxAH4ADICz6X50AAJlcXNxAH4ADDiAsqx0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAyhkbcGdAACIyNzcQB+AAzDHFNYdAAIZmluYWxpemVzcQB+AAzbpxQOdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAxPPEcgdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAJdHJhbnMuVHNvdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHNzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AW0wACWluaGVyaXRlZHEAfgBbTAAHcGFyZW50c3EAfgBbeHEAfgB4c3EAfgBzdXEAfgBWAAAAAHNxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHd0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJFzcQB+AIRxAH4Ah3NxAH4AiHNxAH4Ai3VxAH4AjgAAAANzcQB+AJB0AARqYXZhc3EAfgCQdAACaW9xAH4AlXNxAH4AhHQAB1Byb2R1Y3RxAH4AinNxAH4AhHQABkVxdWFsc3EAfgCKc3EAfgCEdAAGT2JqZWN0c3EAfgCIc3EAfgCLdXEAfgCOAAAAA3NxAH4AkHEAfgCbc3EAfgCQdAAEbGFuZ3EAfgCVc3EAfgCEdAADQW55cQB+AIp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV0cmFuc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWjokBzZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABEQzpcVXNlcnNcbHVpc1xEb2N1bWVudHNcYWR2RGJcYWR2RGF0YWJhc2VzXHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT97XK0yH5DzyB45yxCUy8CwHQg0Q==
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw3Ym/AgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA0c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwMY/q43QABm5vdGlmeXNxAH4ADK7db/V0AARyZWFkc3EAfgAMRnBqxXQAB3VuYXBwbHlzcQB+AAznHm53dAAFYmVnaW5zcQB+AAy1cSXbdAAEd2FpdHNxAH4ADIW00I90AA0kYXNJbnN0YW5jZU9mc3EAfgAMX8ZuqXQABmNvbW1pdHNxAH4ADBuFC6h0AAR1bmRvc3EAfgAM9uN2hXQADHByb2R1Y3RBcml0eXNxAH4ADN+KEK10AAZlcXVhbHNzcQB+AAzmYPAXdAAGTG9nUmVjc3EAfgAMoPGh4nQAD2xvZ1JlY29yZHRvQnl0ZXNxAH4ADIUAzfF0AAxhc0luc3RhbmNlT2ZzcQB+AAyFp1T9dAAOZXhlY3V0aW9uU3RhcnRzcQB+AAwZkpB4dAAMc3luY2hyb25pemVkc3EAfgAMnWUssnQAB1ZEQlRlc3RzcQB+AAxoC1JidAANJGlzSW5zdGFuY2VPZnNxAH4ADPwnuJx0AAZuZXdWYWxzcQB+AAytRok0dAAIY2FuRXF1YWxzcQB+AAxS1sg9dAAEbWFpbnNxAH4ADJiXwGx0AA1wcm9kdWN0UHJlZml4c3EAfgAMfn2t6XQACW5vdGlmeUFsbHNxAH4ADMvXC5x0AAVjYWNoZXNxAH4ADFH5S9p0AAxpc0luc3RhbmNlT2ZzcQB+AAwKmhhydAAJZ2VuUmVjb3Jkc3EAfgAM0ZDS5nQACHJvbGxiYWNrc3EAfgAM2tz8NXQABFBhZ2VzcQB+AAwjjnRzdAAGPGluaXQ+c3EAfgAMJzQUKHQABWFwcGx5c3EAfgAMsqkxLXQAAj09c3EAfgAMCEC0hHQABlJlY29yZHNxAH4ADGEWHyJ0AAVjbG9uZXNxAH4ADHM6ZQt0AAFwc3EAfgAMsV3xuXQABiRpbml0JHNxAH4ADH5yHTV0AAlpbml0Q2FjaGVzcQB+AAw9pbvMdAAEY29weXNxAH4ADIOzWAF0AANWREJzcQB+AAxtSxRIdAAIdG9TdHJpbmdzcQB+AAz8THEedAAKc3RyMnJlY29yZHNxAH4ADAOE6Kp0AARhcmdzc3EAfgAM01GJ+XQAAiE9c3EAfgAMWTrNh3QACGdldENsYXNzc3EAfgAMXYqF+XQABmxvZ0J1ZnNxAH4ADCY3LyN0AAJuZXNxAH4ADCcCQH50AAJlcXNxAH4ADBg/tep0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAzAMiNldAAFd3JpdGVzcQB+AAxkKCb6dAALZGVsYXllZEluaXRzcQB+AAwe+6ETdAACIyNzcQB+AAwOHsqWdAAIZmluYWxpemVzcQB+AAwZ/NXTdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAxDZtXbdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgB/eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAJdHJhbnMuVkRCdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCXc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AH9MAAlpbmhlcml0ZWRxAH4Af0wAB3BhcmVudHNxAH4Af3hxAH4AnHNxAH4Al3VxAH4AegAAAABzcQB+AJd1cQB+AHoAAAAAc3EAfgCXdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCbdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCbc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgC0dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgC1c3EAfgCodAADQW55c3EAfgCsc3EAfgCvdXEAfgCyAAAAAnNxAH4AtHQABXNjYWxhcQB+ALtzcQB+AHxxAH4AiXVxAH4AigAAAABzcQB+AIwAdAANdHJhbnMuVkRCVGVzdHVxAH4AjwAAAABxAH4Ak3VxAH4AlQAAAAJ0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3QAEHNjYWxhLmRlcHJlY2F0ZWRzcQB+AJdxAH4AnXNxAH4Al3NxAH4An3NxAH4Al3VxAH4AegAAAABzcQB+AJd1cQB+AHoAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AIBxAH4AiXVxAH4AigAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+ANN4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3EAfgCodAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcQB+AKxzcQB+AK91cQB+ALIAAAACc3EAfgC0cQB+AMJxAH4Au3NxAH4AjABxAH4ANXVxAH4AjwAAAABzcQB+AKh0AARVbml0cQB+AOJ1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgDTeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgCSdAAFUGxhaW5xAH4AXXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AqVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Am3NxAH4AqHQABUFycmF5cQB+AOJ1cQB+AKYAAAABc3EAfgCodAAGU3RyaW5nc3EAfgCsc3EAfgCvdXEAfgCyAAAAA3NxAH4AtHEAfgC3c3EAfgC0cQB+ALlxAH4Au3NxAH4Al3VxAH4ApgAAAARzcQB+AKh0AANBcHBxAH4A4nNxAH4AqHQAC0RlbGF5ZWRJbml0cQB+AOJzcQB+AKhxAH4Aq3EAfgD/c3EAfgCocQB+AL1xAH4A4nVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXRyYW5zc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFaOiQHNnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AERDOlxVc2Vyc1xsdWlzXERvY3VtZW50c1xhZHZEYlxhZHZEYXRhYmFzZXNcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFLOTOQpKEIFJ6iYq7xUaY2RVOmn+
 external apis:
 0 items
 source infos:
-3 items
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Database.scala -> 
+8 items
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Graph.scala -> 
 AAAAAAAAAAA=
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Graph.scala -> 
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\LockTable.scala -> 
 AAAAAAAAAAA=
-C:\Users\luis\Downloads\transactions (1)\transactions\src\main\scala\trans\Schedule.scala -> 
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\PDB.scala -> 
+AAAAAAAAAAA=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Schedule.scala -> 
+AAAAAAAAAAA=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction.scala -> 
+AAAAAAAAAAA=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Transaction2pl.scala -> 
+AAAAAAAAAAA=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\Tso.scala -> 
+AAAAAAAAAAA=
+C:\Users\luis\Documents\advDb\advDatabases\src\main\scala\trans\VDB.scala -> 
 AAAAAAAAAAA=
 compilations:
-38 items
+39 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWYn36jB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9ob21lL3NjYWxhdGlvbi9jczgzNzAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWYn43st1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9ob21lL3NjYWxhdGlvbi9jczgzNzAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWYn6XYF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9ob21lL3NjYWxhdGlvbi9jczgzNzAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
@@ -488,3 +998,4 @@ compilations:
 35 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWdaDvp51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANi9ob21lL3NjYWxhdGlvbi90cmFuc2FjdGlvbnMvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 36 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWdaEWkd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANi9ob21lL3NjYWxhdGlvbi90cmFuc2FjdGlvbnMvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 37 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWdakrvR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAT0M6XFVzZXJzXGx1aXNcRG93bmxvYWRzXHRyYW5zYWN0aW9ucyAoMSlcdHJhbnNhY3Rpb25zXHRhcmdldFxzY2FsYS0yLjEyXGNsYXNzZXN0AAEv
+38 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWjokBzZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAREM6XFVzZXJzXGx1aXNcRG9jdW1lbnRzXGFkdkRiXGFkdkRhdGFiYXNlc1x0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==

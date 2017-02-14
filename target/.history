@@ -29,3 +29,8 @@ compile
 run-main trans.VDBTest
 compile
 run-main trans.VDBTest
+compile
+sbt update
+compile
+run-main trans.Transaction
+run-main trans.TransactionTest

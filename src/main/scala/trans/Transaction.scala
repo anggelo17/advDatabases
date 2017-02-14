@@ -18,8 +18,9 @@
 
 package trans
 
-import scala.util.control.Breaks._
+import java.io.{BufferedWriter, FileWriter, Writer}
 
+import scala.util.control.Breaks._
 import Operation._
 
 
@@ -177,15 +178,17 @@ object TransactionTest extends App
 
   val startTime=System.currentTimeMillis()
 
+  val NUMBER_THREADS=30
+
   var j=0
 
-  for(i<-0 until 5) { // transactions*2----change this number to test the concurrent number of transactions
+  for(i<-0 until NUMBER_THREADS) { // transactions*2----change this number to test the concurrent number of transactions
 
     j=i*2
 
     val t1 = new Transaction(new Schedule(List((r, j, 0), (r, j, 1), (w, j, 0), (w, j, 1), (r, j, 0), (r, j, 1))), 1, tso)
     // last 1 is for the tso ; 2 for 2pl
-    val t2 = new Transaction(new Schedule(List((r, j+1, 0), (r,j+1, 1), (w, j+1, 0), (w, j+1, 1))), 1, tso) // last 1 is for the tso ; 2 for 2pl
+    val t2 = new Transaction(new Schedule(List((r, j+1, 0), (r,j+1, 1), (w, j+1, 0), (r, j+1, 1))), 1, tso) // last 1 is for the tso ; 2 for 2pl
 
     t1.start()
    t2.start()
@@ -206,6 +209,11 @@ object TransactionTest extends App
 
  val tps=(TransactionStats.count.toDouble/ (totalTime/1000) )
   println("Transactions per second= "+tps)
+
+
+  val output = new BufferedWriter(new FileWriter("tso.txt",true));  //clears file every time
+  output.append(tps+","+NUMBER_THREADS*2+"\n");
+  output.close();
 
 
 
