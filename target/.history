@@ -34,3 +34,5 @@ sbt update
 compile
 run-main trans.Transaction
 run-main trans.TransactionTest
+compile
+exit

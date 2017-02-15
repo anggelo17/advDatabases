@@ -1,15 +1,99 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/supriya/Desktop/advDatabases/src/main/scala/trans/PDB.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Tso.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction2pl.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Graph.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Schedule.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/VDB.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/supriya/Desktop/advDatabases/src/main/scala/trans/PDB.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Tso.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction2pl.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Graph.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Schedule.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/VDB.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/supriya/Desktop/advDatabases/src/main/scala/trans/PDB.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Tso.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction2pl.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Graph.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Schedule.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/VDB.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/supriya/Desktop/advDatabases/src/main/scala/trans/PDB.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Tso.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction2pl.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Graph.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/Schedule.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/VDB.scala, /Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 8 sources: invalidated sources (8) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 8 Scala sources to /Users/supriya/Desktop/advDatabases/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.10.4[0m
+[0m[[0minfo[0m] [0m'compiler-interface' not yet compiled for Scala 2.10.4. Compiling...[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.10.4  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_91561316[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/supriya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/supriya/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.12/xsbti/interface-0.13.12.jar:/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_49f96ed2/srcs/org.scala-sbt/compiler-interface/compiler-interface-0.13.12-sources.jar:/Users/supriya/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.4.jar:/Users/supriya/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar:/Users/supriya/.ivy2/cache/org.scala-lang/jline/jars/jline-2.10.4.jar:/Users/supriya/.ivy2/cache/org.fusesource.jansi/jansi/jars/jansi-1.4.jar[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/GlobalHelpers.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/t_/0_7sff517h1gnns_4b9dk3jc0000gn/T/sbt_38c35372/xsbt/ScaladocInterface.scala[0m
+[0m[[0minfo[0m] [0m  Compilation completed in 11.376 s[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 4f9f7914, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/supriya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/supriya/Desktop/advDatabases/target/scala-2.10/classes:/Users/supriya/.ivy2/cache/org.scalanlp/breeze_2.10/jars/breeze_2.10-0.12.jar:/Users/supriya/.ivy2/cache/org.scalanlp/breeze-macros_2.10/jars/breeze-macros_2.10-0.12.jar:/Users/supriya/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar:/Users/supriya/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/jars/arpack_combined_all-0.1.jar:/Users/supriya/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar:/Users/supriya/.ivy2/cache/com.github.rwl/jtransforms/jars/jtransforms-2.4.0.jar:/Users/supriya/.ivy2/cache/junit/junit/jars/junit-4.8.2.jar:/Users/supriya/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar:/Users/supriya/.ivy2/cache/org.spire-math/spire_2.10/jars/spire_2.10-0.7.4.jar:/Users/supriya/.ivy2/cache/org.spire-math/spire-macros_2.10/jars/spire-macros_2.10-0.7.4.jar:/Users/supriya/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.0.0.jar:/Users/supriya/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar:/Users/supriya/.ivy2/cache/com.chuusai/shapeless_2.10.4/bundles/shapeless_2.10.4-2.0.0.jar:/Users/supriya/.ivy2/cache/org.scalanlp/breeze-natives_2.10/jars/breeze-natives_2.10-0.12.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/jars/netlib-native_ref-osx-x86_64-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/native_ref-java/jars/native_ref-java-1.1.jar:/Users/supriya/.ivy2/cache/com.github.fommil/jniloader/jars/jniloader-1.1.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/jars/netlib-native_ref-linux-x86_64-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/jars/netlib-native_ref-linux-i686-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/jars/netlib-native_ref-win-x86_64-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/jars/netlib-native_ref-win-i686-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/jars/netlib-native_ref-linux-armhf-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/jars/netlib-native_system-osx-x86_64-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/native_system-java/jars/native_system-java-1.1.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/jars/netlib-native_system-linux-x86_64-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/jars/netlib-native_system-linux-i686-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/jars/netlib-native_system-linux-armhf-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/jars/netlib-native_system-win-x86_64-1.1-natives.jar:/Users/supriya/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/jars/netlib-native_system-win-i686-1.1-natives.jar:/Users/supriya/.ivy2/cache/org.scalanlp/breeze-viz_2.10/jars/breeze-viz_2.10-0.12.jar:/Users/supriya/.ivy2/cache/jfree/jcommon/jars/jcommon-1.0.16.jar:/Users/supriya/.ivy2/cache/jfree/jfreechart/jars/jfreechart-1.0.13.jar:/Users/supriya/.ivy2/cache/org.apache.xmlgraphics/xmlgraphics-commons/jars/xmlgraphics-commons-1.3.1.jar:/Users/supriya/.ivy2/cache/commons-io/commons-io/jars/commons-io-1.3.1.jar:/Users/supriya/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar:/Users/supriya/.ivy2/cache/com.lowagie/itext/jars/itext-2.1.5.jar:/Users/supriya/.ivy2/cache/bouncycastle/bcmail-jdk14/jars/bcmail-jdk14-138.jar:/Users/supriya/.ivy2/cache/bouncycastle/bcprov-jdk14/jars/bcprov-jdk14-138.jar[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:5: expected class or object definition[0m
+[0m[[31merror[0m] [0m<<<<<<< HEAD[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:8: expected class or object definition[0m
+[0m[[31merror[0m] [0m=======[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:10: expected class or object definition[0m
+[0m[[31merror[0m] [0m>>>>>>> origin/master[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:39: expected class or object definition[0m
+[0m[[31merror[0m] [0m=======[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:44: expected class or object definition[0m
+[0m[[31merror[0m] [0m  var lockmap = new mutable.HashMap[Int,Lock]()[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:46: expected class or object definition[0m
+[0m[[31merror[0m] [0m  def rl(oid: Int,tid: Int) =[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:58: expected class or object definition[0m
+[0m[[31merror[0m] [0m  def wl(oid: Int,tid: Int) = {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:64: expected class or object definition[0m
+[0m[[31merror[0m] [0m    def ul(oid: Int): Unit = {[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:67: expected class or object definition[0m
+[0m[[31merror[0m] [0m   def checkCycle(noTrans: Int,tid1 :Int,tid2: Int): Boolean ={[0m
+[0m[[31merror[0m] [0m   ^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:72: Unmatched closing brace '}' ignored here[0m
+[0m[[31merror[0m] [0m  }[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/LockTable.scala:73: expected class or object definition[0m
+[0m[[31merror[0m] [0m>>>>>>> origin/master[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction2pl.scala:1: expected class or object definition[0m
+[0m[[31merror[0m] [0m<<<<<<< HEAD[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction2pl.scala:193: expected class or object definition[0m
+[0m[[31merror[0m] [0m=======[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction2pl.scala:214: '{' expected but ';' found.[0m
+[0m[[31merror[0m] [0mimport Operation._[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/supriya/Desktop/advDatabases/src/main/scala/trans/Transaction2pl.scala:377: expected class or object definition[0m
+[0m[[31merror[0m] [0m>>>>>>> origin/master[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m15 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
