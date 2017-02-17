@@ -62,42 +62,47 @@ private val tid = nextCount ()        // tarnsaction identifier
   override def run ()
   {
 
-    do {
+
       begin()
       val size = sch.sizeSchedule
-      var count = 0;
-      for (i <- sch) {
-        val op = i
-        val oid = i._3
-        val tid = i._2
-        println(i)
+      var i = 0;
+      while (i < size) {
+        val op = sch(i)
+        println(op)
         if (op._1 == r) {
           if (protocol == twoPl) {
-            if (searchlock(oid, tid, sch,count)) {
+           /* if (searchlock(oid, tid, sch,count)) {
               wl(oid, op._2, this)
               TransactionStats.upgradelock=true
               println(s"got upgraded writelock on $oid")
              // read(oid)
             }
-            else {
+            else {  */
               rl(op._3, op._2, this)
               println(s"got readlock on $op")
               //read(op._3)
               // lockmap(oid).lock.readLock().unlock() // ul(op._3)
-            }
+
           } //if
         } //if r/w
         else {
           if (protocol == twoPl) {
             wl(op._3, op._2, this)
-            println(s"got writelock on $oid")
+            println(s"got writelock on $op")
             //write(op._3, VDB.str2record(op.toString))
           }
         } //else of r/w
-        count += 1
-      } // for
+        if(rollbackid)
+          {
+            i=0;
+            rollbackid=false
+            rollback()
+          }
+        else i +=1
+
+      } // while
       commit()
-    } while(rollbackid)
+
   } // run
 
 
@@ -153,9 +158,16 @@ private val tid = nextCount ()        // tarnsaction identifier
     */
   def rollback ()
   {
+    for(i <- sch)
+    {
+      if(i._1==w)
+        ul(w,i._3)
+      else
+        ul(r,i._3)
+    }
     VDB.rollback (tid)
   } // rollback
-def searchlock(oid:Int, tid: Int,s:Schedule, index: Int) : Boolean =
+/*def searchlock(oid:Int, tid: Int,s:Schedule, index: Int) : Boolean =
 {
   var flag=false
   for(i <- index+1 until s.sizeSchedule) {
@@ -165,6 +177,7 @@ def searchlock(oid:Int, tid: Int,s:Schedule, index: Int) : Boolean =
 }
   flag
 }//to see if there is a writelock ahead
+*/
 } // Transaction class
 
 
@@ -176,9 +189,9 @@ object TransactionTest extends App
 {
  // val t1=new Transaction(new Schedule(List((r,0,0))),2)//(r,0,1),(w, 0, 0), (w, 0, 1))),2)
   val startTime = System.currentTimeMillis()
-  var nTrans = 3
+  var nTrans = 2
   var nOps = 2
-  var nObjs = 3
+  var nObjs = 2
   /*val t1 = new Transaction (new Schedule (List ( (r, 0, 0), (r, 0, 1),(w, 0, 0), (w, 0, 1))),2)
   val t2 = new Transaction (new Schedule (List ( (w, 1, 0), (r, 1, 1), (w, 1, 0), (w, 1, 1) )),2)
   t1.start ()
@@ -208,7 +221,7 @@ object TransactionTest extends App
   Thread sleep 10000
   val endTime = System.currentTimeMillis()
   val totalTime=endTime-startTime
-  println(TransactionStats.count)
+  println("Committed="+ TransactionStats.count)
   println(s"totaltime=$totalTime")
   val tps =TransactionStats.count/(totalTime/1000)
   println(s"tps=$tps")

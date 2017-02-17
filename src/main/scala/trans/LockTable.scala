@@ -12,7 +12,7 @@ class Lock(tid: Int) {
   val owner=tid
 }
   var lockmap = new mutable.HashMap[Int,Lock]()
-  val nTrans = 3
+  val nTrans = 2
   val waitgraph = new Graph(Array.fill(nTrans)(Set[Int]()))
 
   def rl(oid: Int,tid: Int,trans: Transaction) =
@@ -64,11 +64,11 @@ class Lock(tid: Int) {
         if (op=='w'){
           println(s"unlocking writelock on $oid")
           lockmap(oid).lock.writeLock().unlock()}
-        else if(TransactionStats.upgradelock)
+       /* else if(TransactionStats.upgradelock)
           {
             lockmap(oid).lock.writeLock().unlock()
             TransactionStats.upgradelock=false
-          }
+          } */
         else {
           println(s"unlocking readlock on $oid")
           lockmap(oid).lock.readLock().unlock()
