@@ -27,6 +27,7 @@ import breeze.numerics._
 import breeze.polynomial
 import breeze.plot._
 
+import scala.collection.mutable.ArrayBuffer
 import scala.io.Source
 
 
@@ -35,6 +36,9 @@ object TransactionStats {
     var end: Long = 0
     var count: Int = 0 // successful transactions
     var rolls: Int = 0
+
+  //var volatile la=0
+
 }
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -52,12 +56,13 @@ object Transaction
 } // Transaction object
 
 import Transaction._
+import TransactionStats._
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 /** The `Transaction` class
  *  @param sch  the schedule/order of operations for this transaction.
  */
-class Transaction (sch: Schedule,protocol:Int,tso:Tso) extends Thread
+class Transaction (sch: Schedule,protocol:Int,tso:Tso,var scheduleBuffer:ArrayBuffer[Op]) extends Thread
 {
     private val DEBUG = true              // debug flag
     private val tid = nextCount ()        // tarnsaction identifier
@@ -73,24 +78,37 @@ class Transaction (sch: Schedule,protocol:Int,tso:Tso) extends Thread
     override def run ()
     {
 
-      var stopb=false
+      var rollbackb=false
         //begin ()
-        for (i <- sch.indices) {
+      val size=sch.sizeSchedule
+      var i=0;
+
+        while (i < size) {
             val op = sch(i)
             println (sch(i))
             if (op._1 == r) {
 
-              if(protocol==TSOproto && !stopb) {
+              if(protocol==TSOproto && !rollbackb) {
 
 
                 val answer = tso.checkTso(System.currentTimeMillis(), op)
                 if (answer.equals("OK")) {
+
+
+                  scheduleBuffer.synchronized{
+                    scheduleBuffer+=op
+                  }
+                 // scheduleBuffer += sch(i)
+                //  for(k<-0 until  TransactionStats.scheduleBuffer.size)
+                    println("op "+scheduleBuffer.size)
                   println(" permission to read granted")
                   //read(op._3)
+                  println("adding "+op)
+
               }
                 else {
                   rollback()
-                  stopb=true
+                  rollbackb=true
                 }
               }
 
@@ -99,25 +117,40 @@ class Transaction (sch: Schedule,protocol:Int,tso:Tso) extends Thread
 
             else {// write
 
-              if(protocol==TSOproto && !stopb) {
+              if(protocol==TSOproto && !rollbackb) {
 
 
                 val answer = tso.checkTso(System.currentTimeMillis(), op)
                 if (answer.equals("OK")) {
+
+                  scheduleBuffer.synchronized {
+                  scheduleBuffer += sch(i)
+                }
                   println(" permission to write granted")
+                  //for(k<-0 until  TransactionStats.scheduleBuffer.size)
+                    println("op "+scheduleBuffer.size)
                   //write(op._3, VDB.str2record(op.toString))
+                 // TransactionStats.scheduleBuffer+=op
+                  println("adding "+op)
                 }
                 else {
                   rollback()
-                  stopb=true
+                  rollbackb=true
                 }
               }
 
 
             }//else
-        } // for
 
-        if(!stopb)
+          if (rollbackb){
+            i=0 // start again the loop
+            rollbackb=false
+          }
+          else i+=1 // next op
+
+        } // while
+
+        if(!rollbackb)
             commit ()
     } // run
 
@@ -167,6 +200,7 @@ class Transaction (sch: Schedule,protocol:Int,tso:Tso) extends Thread
         println("rolling back")
         TransactionStats.rolls+=1
        // VDB.rollback (tid)
+
     } // rollback
 
 } // Transaction class
@@ -181,66 +215,108 @@ object TransactionTest extends App
 
   val tso=Tso(0,0)
 
+  val scheduleBuffer=new ArrayBuffer[Op]()
+
 
   val startTime=System.currentTimeMillis()
 
-  val NUMBER_THREADS=50
+  val NUMBER_THREADS=55
 
-  var j=0
+  var j,i=0
 
-  for(i<-0 until NUMBER_THREADS) { // transactions*2----change this number to test the concurrent number of transactions
+  //for(i<-0 until NUMBER_THREADS) { // transactions*2----change this number to test the concurrent number of transactions
 
-    j=i*2
+    //j=i*2
 
-    val t1 = new Transaction(new Schedule(List((r, j, 0), (r, j, 1), (w, j, 0), (w, j, 1), (r, j, 0), (r, j, 1))), 1, tso)
-    // last 1 is for the tso ; 2 for 2pl
-    val t2 = new Transaction(new Schedule(List((r, j+1, 0), (r,j+1, 1), (w, j+1, 0), (r, j+1, 1))), 1, tso) // last 1 is for the tso ; 2 for 2pl
+    var nTrans = 2
+    var nOps = 2
+    var nObjs = 32
 
-    t1.start()
-   t2.start()
+    val t1 = new Transaction(new Schedule(List((r, j, 0), (r, j, 1),(w,0,1) )), 1, tso,scheduleBuffer)
+  val t2= new  Transaction(Schedule.gen(1,nOps,nObjs),1,tso,scheduleBuffer)
+  val t3= new  Transaction(Schedule.gen(2,nOps,nObjs),1,tso,scheduleBuffer)
 
-  }
-
-
-  Thread sleep 10000
-
-  println("all threads finished...")
-
-  val endTime=System.currentTimeMillis()
-  val totalTime=endTime-startTime
-
-  println("STATS:")
-  println("committed Transactions ="+ TransactionStats.count)
-  println("rollback Transactions ="+TransactionStats.rolls)
-
- val tps=(TransactionStats.count.toDouble/ (totalTime/1000) )
-  println("Transactions per second= "+tps)
+  t1.start()
+    t2.start()
+  t3.start()
+   t1.join()
+    t2.join()
+  t3.join()
 
 
-  val output = new BufferedWriter(new FileWriter("tso.txt",true));  //clears file every time
-  output.append(tps+","+NUMBER_THREADS*2+"\n");
-  output.close();
+  //}
 
-  val throughput = DenseVector( Source.fromFile("tso.txt")
-    .getLines.map(_.split(",")(0).toDouble).toSeq :_ * )
+ // Thread sleep 15000
+println(scheduleBuffer.size)
 
-  for(i<-throughput)
-    println(i)
 
-  val threads = DenseVector( Source.fromFile("tso.txt")
-    .getLines.map(_.split(",")(1).toDouble).toSeq :_ * )
+  for(k<-0 until  scheduleBuffer.size)
+    println("op "+scheduleBuffer(k))
 
-  for(i<-threads)
-    println(i)
-
-  val fig = Figure()
-  val plt = fig.subplot(0)
-  plt += plot(threads , throughput)
-  plt.xlabel=" Threads"
-  plt.ylabel=" Transactions/second"
-
-  fig.refresh()
-
+//
+//  var nTrans = 100
+//  var nOps = 2
+//  var nObjs = 32
+//  //val t1 = new Transaction (new Schedule (List ( (r, 0, 0), (r, 0, 1),(w, 0, 0), (w, 0, 1))),2)
+//  //val t2 = new Transaction (new Schedule (List ( (r, 1, 0), (r, 1, 1), (w, 1, 0), (w, 1, 1) )),2)
+//  //t1.start ()
+//  //t2.start ()
+//  var transactions = Array.ofDim[Transaction](nTrans)
+//  for(i<-transactions.indices)
+//  {
+//    transactions(i)=new Transaction(Schedule.gen(i,nOps,nObjs),2,tso)
+//    transactions(i).start()
+//    //transactions.jo
+//  }
+//
+//  for(i<-transactions.indices)
+//  {
+//    transactions(i).join()
+//  }
+//
+//  println("all threads finished...")
+//
+//  val endTime=System.currentTimeMillis()
+//
+//  var totalTime=endTime-startTime
+//
+//  println(" total time= "+totalTime)
+//
+//  println("STATS:")
+//  println("committed Transactions ="+ TransactionStats.count)
+//  println("rollback Transactions ="+TransactionStats.rolls)
+//
+//  val dtotalTime=totalTime.toDouble/1000.0
+//  println(" total time= "+dtotalTime)
+//
+// val tps=(TransactionStats.count.toDouble/ dtotalTime )
+//  println("Transactions per second= "+tps)
+//
+//
+//  val output = new BufferedWriter(new FileWriter("tso.txt",true));  //clears file every time
+//  output.append(tps+","+nTrans+"\n");
+//  output.close();
+//
+//  val throughput = DenseVector( Source.fromFile("tso.txt")
+//    .getLines.map(_.split(",")(0).toDouble).toSeq :_ * )
+//
+//  for(i<-throughput)
+//    println(i)
+//
+//  val threads = DenseVector( Source.fromFile("tso.txt")
+//    .getLines.map(_.split(",")(1).toDouble).toSeq :_ * )
+//
+//  for(i<-threads)
+//    println(i)
+//
+//  val fig = Figure()
+//  val plt = fig.subplot(0)
+//  plt += plot(threads , throughput)
+//  plt.xlabel=" Threads"
+//  plt.ylabel=" Transactions/second"
+//
+//  fig.refresh()
+//
 
 
 
