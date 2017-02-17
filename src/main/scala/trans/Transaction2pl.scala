@@ -29,6 +29,7 @@ object TransactionStats {
   var end: Long = 0
   var count: Int = 0 // successful transactions
   var rolls: Int = 0
+  var upgradelock = false
 }
 object Transaction
 {
@@ -60,21 +61,28 @@ private val tid = nextCount ()        // tarnsaction identifier
     */
   override def run ()
   {
+
     do {
       begin()
+      val size = sch.sizeSchedule
+      var count = 0;
       for (i <- sch) {
         val op = i
         val oid = i._3
+        val tid = i._2
         println(i)
         if (op._1 == r) {
           if (protocol == twoPl) {
-            if (searchlock(oid, sch)) {
+            if (searchlock(oid, tid, sch,count)) {
               wl(oid, op._2, this)
-              read(oid)
+              TransactionStats.upgradelock=true
+              println(s"got upgraded writelock on $oid")
+             // read(oid)
             }
             else {
               rl(op._3, op._2, this)
-              read(op._3)
+              println(s"got readlock on $op")
+              //read(op._3)
               // lockmap(oid).lock.readLock().unlock() // ul(op._3)
             }
           } //if
@@ -82,9 +90,11 @@ private val tid = nextCount ()        // tarnsaction identifier
         else {
           if (protocol == twoPl) {
             wl(op._3, op._2, this)
-            write(op._3, VDB.str2record(op.toString))
+            println(s"got writelock on $oid")
+            //write(op._3, VDB.str2record(op.toString))
           }
         } //else of r/w
+        count += 1
       } // for
       commit()
     } while(rollbackid)
@@ -134,7 +144,7 @@ private val tid = nextCount ()        // tarnsaction identifier
           ul(r,i._3)
       }
    TransactionStats.count += 1
-    VDB.commit (tid)
+    //VDB.commit (tid)
    // if (DEBUG) println (VDB.logBuf)
   } // commit
 
@@ -145,12 +155,13 @@ private val tid = nextCount ()        // tarnsaction identifier
   {
     VDB.rollback (tid)
   } // rollback
-def searchlock(oid:Int,s:Schedule) : Boolean =
+def searchlock(oid:Int, tid: Int,s:Schedule, index: Int) : Boolean =
 {
   var flag=false
-  for(i <- s) {
-  if (oid == i._3 && i._1 == 'w')
+  for(i <- index+1 until s.sizeSchedule) {
+    if (oid == s(i)._3 && tid == s(i)._2 && s(i)._1 == 'w')
     flag=true
+    println(s"in searchlock $i $flag")
 }
   flag
 }//to see if there is a writelock ahead
@@ -165,9 +176,9 @@ object TransactionTest extends App
 {
  // val t1=new Transaction(new Schedule(List((r,0,0))),2)//(r,0,1),(w, 0, 0), (w, 0, 1))),2)
   val startTime = System.currentTimeMillis()
-  var nTrans = 10
+  var nTrans = 3
   var nOps = 2
-  var nObjs = 32
+  var nObjs = 3
   /*val t1 = new Transaction (new Schedule (List ( (r, 0, 0), (r, 0, 1),(w, 0, 0), (w, 0, 1))),2)
   val t2 = new Transaction (new Schedule (List ( (w, 1, 0), (r, 1, 1), (w, 1, 0), (w, 1, 1) )),2)
   t1.start ()

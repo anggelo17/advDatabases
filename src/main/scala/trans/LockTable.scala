@@ -2,7 +2,7 @@ package trans
 import java.util.concurrent.locks.ReentrantReadWriteLock
 
 import scala.collection.mutable
-import Cycle._
+import trans.TrafficLight._
 /**
   * Created by supriya on 2/9/17.
   */
@@ -12,7 +12,7 @@ class Lock(tid: Int) {
   val owner=tid
 }
   var lockmap = new mutable.HashMap[Int,Lock]()
-  val nTrans = 5
+  val nTrans = 3
   val waitgraph = new Graph(Array.fill(nTrans)(Set[Int]()))
 
   def rl(oid: Int,tid: Int,trans: Transaction) =
@@ -61,13 +61,31 @@ class Lock(tid: Int) {
   }
     def ul(op: Char,oid: Int): Unit = {
       if(lockmap.keySet.contains(oid)) {
-        if (op=='w')
-          lockmap(oid).lock.writeLock().unlock()
-        else
+        if (op=='w'){
+          println(s"unlocking writelock on $oid")
+          lockmap(oid).lock.writeLock().unlock()}
+        else if(TransactionStats.upgradelock)
+          {
+            lockmap(oid).lock.writeLock().unlock()
+            TransactionStats.upgradelock=false
+          }
+        else {
+          println(s"unlocking readlock on $oid")
           lockmap(oid).lock.readLock().unlock()
+        }
       }
     }
    def checkCycle(): Boolean ={
-     hasCycle(waitgraph)
+     val color = Array.fill (waitgraph.size)(G_N)
+     for (v <- color.indices if color(v) == G_N && loopback (v)) return true
+     def loopback (u: Int): Boolean =
+     {
+       if (color(u) == Y_W) return true
+       color(u) = Y_W
+       for (v <- waitgraph.ch(u) if color(v) != R_D && loopback (v)) return true
+       color(u) = R_D
+       false
+     } // loopback
+     false
    }
   }
