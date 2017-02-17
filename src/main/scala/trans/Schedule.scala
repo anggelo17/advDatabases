@@ -18,6 +18,9 @@
 
 package trans
 
+import scala.util.Random
+//import scalation.graphalytics.mutable.Graph
+
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 /** The `Operation` object defines the 'Op' type and read (r) and write (w) operation-types.
  */
@@ -41,6 +44,7 @@ object Operation
 } // Operation object
 
 import Operation._
+import Cycle._
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 /** The `Schedule` class represents a transaction schedule as a list of operations,
@@ -58,8 +62,7 @@ class Schedule (s: List [Op])
         val g = new Graph (Array.fill (nTrans)(Set [Int] ()))
         for (i <- s.indices; j <- i+1 until s.size if conflicts (s(i), s(j))) g.ch(s(i)._2) += s(j)._2
         g.printG ()
-        // I M P L E M E N T
-        false
+        hasCycle(g)
     } // isCSR
 
     //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -71,18 +74,7 @@ class Schedule (s: List [Op])
         // I M P L E M E N T - bonus
         false
     } // isVSR
-
-    //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-    /** Return the ith operation in the schedule.
-     *  @param i  the index value
-     */
-    def apply (i: Int): Op = s(i)
-
-    //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-    /** Return the range for the schedule indices.
-     */
-    def indices: Range = 0 until s.size
-
+    def sizeSchedule:Int = s.size
     //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     /** Iterate over the schedule element by element.
      *  @param f  the function to apply
@@ -116,8 +108,8 @@ object Schedule
      */
     def gen (nTrans: Int, nOps: Int, nObjs: Int): Schedule =
     {
-        val total = nTrans * nOps
-        val s = (for (i <- 0 until total) yield (w, 0, 0)).toList
+        val total =  4 //nTrans * nOps
+        val s = (for (i <- 0 until total) yield (if(Random.nextInt(2)==0) 'r' else 'w', nTrans , Random.nextInt(nObjs))).toList
         // F I X  I M P L E M E N T A T I O N - randomize the 3-tuples
         new Schedule (s)
     } // gen
@@ -131,15 +123,24 @@ object Schedule
  */
 object ScheduleTest extends App
 {
-    val s1 = new Schedule (List ( (r, 0, 0), (r, 1, 0), (w, 0, 0), (w, 1, 0) ))
-    val s2 = new Schedule (List ( (r, 0, 0), (r, 1, 1), (w, 0, 0), (w, 1, 1) ))
+   // val s1 = new Schedule (List ( (r, 0, 0), (r, 1, 0), (w, 0, 0), (w, 1, 0) ))
+    //val s2 = new Schedule (List ( (r, 0, 0), (r, 1, 1), (w, 0, 0), (w, 1, 1) ))
+    
+    var schedules = Array.ofDim[Schedule](10)
+    var nTrans = 2
+    var nOps = 2
+    var nObjs = 2
+    for(i <- schedules.indices)
+    {
+     schedules(i)=Schedule.gen(nTrans,nOps,nObjs)
+    }
+    for(i <- schedules)
+        println (s"schedule = $i is CSR? ${i.isCSR (nTrans)}")
+    //println (s"s1 = $s1 is CSR? ${s1.isCSR (2)}")
+    //println (s"s2 = $s2 is CSR? ${s2.isCSR (2)}")
+    //println (s"s2 = $s2 is VSR? ${s2.isVSR (2)}")
 
-    println (s"s1 = $s1 is CSR? ${s1.isCSR (2)}")
-    println (s"s1 = $s1 is VSR? ${s1.isVSR (2)}")
-    println (s"s2 = $s2 is CSR? ${s2.isCSR (2)}")
-    println (s"s2 = $s2 is VSR? ${s2.isVSR (2)}")
-
-    println (s"s3 = ${Schedule.gen (3, 2, 2)}")
+    //println (s"s3 = ${Schedule.gen (3, 2, 2)}")
 
 } // ScheduleTest object
 
