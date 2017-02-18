@@ -1,4 +1,5 @@
 package trans
+
 import java.util.concurrent.locks.ReentrantReadWriteLock
 
 import scala.collection.mutable
@@ -34,6 +35,7 @@ class Lock(tid: Int) {
         if(wait) waitgraph.ch(tid) -= ownerTid
       }
     lockmap(oid).lock.readLock().lock() //tid got the readlock
+    println("after ..read locks on " + oid + " : " + lockmap(oid).lock.getReadLockCount + " " + lockmap(oid).lock.getReadHoldCount)
 
 
     //println("======="+lockmap(oid).lock.toString)
@@ -41,37 +43,78 @@ class Lock(tid: Int) {
   def wl(oid: Int,tid: Int,trans: Transaction) = {
     var wait = false
     var ownerTid = -1
-    if (!lockmap.keySet.contains(oid))
+
+
+    println("starting wl on "+oid)
+
+    if (!lockmap.keySet.contains(oid)) {
+      println("inserting.."+oid)
       lockmap += (oid) -> new Lock(tid)
+    }
+
+
+
     if(lockmap(oid).owner != tid)
       wait = true
+
     ownerTid = lockmap(oid).owner
+    //println( " : " + lockmap(oid).lock.getReadLockCount + " " + lockmap(oid).lock.getReadHoldCount)
     if(wait)
       {
         waitgraph.ch(tid) += ownerTid
       }
     if(LockTable.checkCycle())
       {
+        println("there is a cycle????")
+        waitgraph.printG()
         trans.rollbackid=true
         if(wait)
         waitgraph.ch(tid) -= ownerTid
       }
+
+
+
+      val readLockCount = lockmap(oid).lock.getReadLockCount
+      for (i <- 0 until readLockCount) {
+
+        println("ulocking.."+oid)
+
+        lockmap(oid).lock.readLock().unlock()
+      }
+
+
+
     lockmap(oid).lock.writeLock().lock()
     //println("======="+lockmap(oid).lock.toString)
   }
     def ul(op: Char,oid: Int): Unit = {
       if(lockmap.keySet.contains(oid)) {
-        if (op=='w'){
-          println(s"unlocking writelock on $oid")
-          lockmap(oid).lock.writeLock().unlock()}
+        if (op=='w') {
+          println(s"unlocking writelock on $op, $oid")
+
+          lockmap(oid).lock.synchronized {
+          lockmap(oid).lock.writeLock().unlock()
+        }
+
+        }
        /* else if(TransactionStats.upgradelock)
           {
             lockmap(oid).lock.writeLock().unlock()
             TransactionStats.upgradelock=false
           } */
         else {
-          println(s"unlocking readlock on $oid")
-          lockmap(oid).lock.readLock().unlock()
+         // println(s"unlocking readlock on $op, $oid")
+
+          val readLockCount = lockmap(oid).lock.getReadLockCount
+          for (i <- 0 until readLockCount) {
+
+            println("unlocking readlock in ul.."+oid)
+
+            lockmap(oid).lock.readLock().unlock()
+          }
+
+         // lockmap(oid).lock.readLock().unlock()
+
         }
       }
     }

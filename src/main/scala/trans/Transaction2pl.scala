@@ -18,6 +18,8 @@
 
 package trans
 
+import java.util.concurrent.locks.ReentrantReadWriteLock
+
 import Operation._
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -71,17 +73,10 @@ private val tid = nextCount ()        // tarnsaction identifier
         println(op)
         if (op._1 == r) {
           if (protocol == twoPl) {
-           /* if (searchlock(oid, tid, sch,count)) {
-              wl(oid, op._2, this)
-              TransactionStats.upgradelock=true
-              println(s"got upgraded writelock on $oid")
-             // read(oid)
-            }
-            else {  */
+
               rl(op._3, op._2, this)
               println(s"got readlock on $op")
-              //read(op._3)
-              // lockmap(oid).lock.readLock().unlock() // ul(op._3)
+
 
           } //if
         } //if r/w
@@ -158,14 +153,16 @@ private val tid = nextCount ()        // tarnsaction identifier
     */
   def rollback ()
   {
+
+    println("rolling back")
     for(i <- sch)
     {
       if(i._1==w)
         ul(w,i._3)
-      else
-        ul(r,i._3)
+//      else
+//        ul(r,i._3)
     }
-    VDB.rollback (tid)
+    //VDB.rollback (tid)
   } // rollback
 /*def searchlock(oid:Int, tid: Int,s:Schedule, index: Int) : Boolean =
 {
@@ -187,6 +184,22 @@ private val tid = nextCount ()        // tarnsaction identifier
   */
 object TransactionTest extends App
 {
+
+//  val lock = new ReentrantReadWriteLock();
+//  lock.readLock().lock();
+//
+//  // In real code we would go call other methods that end up calling back and
+//  // thus locking again
+//  lock.readLock().lock();
+//  println(lock.getReadHoldCount+" "+lock.getReadLockCount)
+//
+//  // Now we do some stuff and realise we need to write so try to escalate the
+//  // lock as per the Javadocs and the above description
+//  lock.readLock().unlock(); // Does not actually release the lock
+//  println(lock.getReadHoldCount+" "+lock.getReadLockCount)
+//  lock.writeLock().lock();  // Blocks as some thread (this one!) holds read lock
+//
+//  System.out.println("Will never get here");
  // val t1=new Transaction(new Schedule(List((r,0,0))),2)//(r,0,1),(w, 0, 0), (w, 0, 1))),2)
   val startTime = System.currentTimeMillis()
   var nTrans = 2
@@ -198,26 +211,26 @@ object TransactionTest extends App
   t2.start ()
   */
   var transactions = Array.ofDim[Transaction](nTrans)
-  var j=0
+  var j,i=0
 
- /* for(i<-0 until 5) { // transactions*2----change this number to test the concurrent number of transactions
+ // for(i<-0 until 5) { // transactions*2----change this number to test the concurrent number of transactions
 
     j=i*2
 
-    val t1 = new Transaction(new Schedule(List((r, j, 0), (r, j, 1), (w, j, 0), (w, j, 1), (r, j, 0), (r, j, 1))), 2)
+    val t1 = new Transaction(new Schedule(List( (r, j, 1), (r, j, 1), (r, j, 0), (w, j, 0))), 2)
     // last 1 is for the tso ; 2 for 2pl
-    val t2 = new Transaction(new Schedule(List((r, j+1, 0), (r,j+1, 1), (w, j+1, 0), (w, j+1, 1))), 2) // last 1 is for the tso ; 2 for 2pl
+    val t2 = new Transaction(new Schedule(List((w, j+1, 1), (r,j+1, 1), (w, j+1, 0), (w, j+1, 1))), 2) // last 1 is for the tso ; 2 for 2pl
 
     t1.start()
     t2.start()
 
-  }
-*/
-   for(i<-transactions.indices)
-     {
-       transactions(i)=new Transaction(Schedule.gen(i,nOps,nObjs),2)
-       transactions(i).start()
-     }
+ // }
+
+//   for(i<-transactions.indices)
+//     {
+//       transactions(i)=new Transaction(Schedule.gen(i,nOps,nObjs),2)
+//       transactions(i).start()
+//     }
   Thread sleep 10000
   val endTime = System.currentTimeMillis()
   val totalTime=endTime-startTime
