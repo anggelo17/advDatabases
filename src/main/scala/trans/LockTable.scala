@@ -10,7 +10,7 @@ import trans.TrafficLight._
 object LockTable {
 class Lock(tid: Int) {
   val lock = new ReentrantReadWriteLock()
-  val owner=tid
+  var owner=tid
 }
   var lockmap = new mutable.HashMap[Int,Lock]()
   val nTrans = 2
@@ -27,7 +27,10 @@ class Lock(tid: Int) {
     if(tid != lockmap(oid).owner)
       wait = true
     ownerTid = lockmap(oid).owner
-    if(wait) { waitgraph.ch(tid) += ownerTid}
+    if(wait) {
+
+      println("adding an edge from.."+tid+" to "+ownerTid+" when rl on"+oid)
+      waitgraph.ch(tid) += ownerTid}
 
     if(LockTable.checkCycle())
       {
@@ -61,6 +64,7 @@ class Lock(tid: Int) {
     //println( " : " + lockmap(oid).lock.getReadLockCount + " " + lockmap(oid).lock.getReadHoldCount)
     if(wait)
       {
+        println("adding an edge from.."+tid+" to "+ownerTid+" when wl on"+oid)
         waitgraph.ch(tid) += ownerTid
       }
     if(LockTable.checkCycle())
@@ -87,13 +91,14 @@ class Lock(tid: Int) {
     lockmap(oid).lock.writeLock().lock()
     //println("======="+lockmap(oid).lock.toString)
   }
-    def ul(op: Char,oid: Int): Unit = {
+    def ul(op: Char,oid: Int,tid:Int): Unit = {
       if(lockmap.keySet.contains(oid)) {
         if (op=='w') {
           println(s"unlocking writelock on $op, $oid")
 
-          lockmap(oid).lock.synchronized {
-          lockmap(oid).lock.writeLock().unlock()
+          lockmap(oid).lock.writeLock().synchronized {
+            waitgraph.ch(tid) -= lockmap(oid).owner
+            lockmap(oid).lock.writeLock().unlock()
         }
 
         }
@@ -105,6 +110,7 @@ class Lock(tid: Int) {
         else {
          // println(s"unlocking readlock on $op, $oid")
 
+          waitgraph.ch(tid) -= lockmap(oid).owner
           val readLockCount = lockmap(oid).lock.getReadLockCount
           for (i <- 0 until readLockCount) {
 

@@ -139,9 +139,9 @@ private val tid = nextCount ()        // tarnsaction identifier
     for(i <- sch)
       {
         if(i._1==w)
-        ul(w,i._3)
+        ul(w,i._3,i._2)
         else
-          ul(r,i._3)
+          ul(r,i._3,i._2)
       }
    TransactionStats.count += 1
     //VDB.commit (tid)
@@ -158,7 +158,7 @@ private val tid = nextCount ()        // tarnsaction identifier
     for(i <- sch)
     {
       if(i._1==w)
-        ul(w,i._3)
+        ul(w,i._3,i._2)
 //      else
 //        ul(r,i._3)
     }
@@ -223,6 +223,11 @@ object TransactionTest extends App
 
     t1.start()
     t2.start()
+
+
+
+
+
 
  // }
 
