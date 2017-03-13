@@ -28,14 +28,14 @@ import scala.collection.mutable.ArrayBuffer
 /** The `Transaction` companion object
   */
 
-object TransactionStats {
+object TransactionStats2 {
   var start: Long = System.currentTimeMillis
   var end: Long = 0
   var count: Int = 0 // successful transactions
   var rolls: Int = 0
   var upgradelock = false
 }
-object Transaction
+object Transaction2
 {
   private var count = -1
 
@@ -61,7 +61,7 @@ import LockTable._
 /** The `Transaction` class
   *  @param sch  the schedule/order of operations for this transaction.
   */
-class Transaction (sch: Schedule,protocol: Int) extends Thread
+class Transaction2 (sch: Schedule,protocol: Int) extends Thread
 {
   var rollbackid =false
   private val DEBUG = true              // debug flag
@@ -189,6 +189,7 @@ private val tid = nextCount ()        // tarnsaction identifier
     */
   def commit (oidList:ArrayBuffer[OperationLock])
   {
+<<<<<<< Updated upstream
     var i=0
     while (i < oidList.size)
     {
@@ -201,6 +202,16 @@ private val tid = nextCount ()        // tarnsaction identifier
     }
 
     TransactionStats.count += 1
+=======
+    for(i <- sch)
+      {
+        if(i._1==w)
+        ul(w,i._3)
+        else
+          ul(r,i._3)
+      }
+   TransactionStats.count += 1
+>>>>>>> Stashed changes
     //VDB.commit (tid)
    // if (DEBUG) println (VDB.logBuf)
   } // commit
@@ -214,10 +225,17 @@ private val tid = nextCount ()        // tarnsaction identifier
     println("rolling back")
     for(i <- oidList.indices)
     {
+<<<<<<< Updated upstream
       if( oidList(i).str=="wl")
         ul(w,oidList(i).ope._3,oidList(i).ope._2)
       else
         ul(r,oidList(i).ope._3,oidList(i).ope._2)
+=======
+      if(i._1==w)
+        ul(w,i._3)
+//      else
+//        ul(r,i._3)
+>>>>>>> Stashed changes
     }
 
     TransactionStats.rolls +=1
@@ -254,7 +272,7 @@ def searchlock(oid:Int, tid: Int,s:Schedule, index: Int) : Boolean =
 /** The `TransactionTest` object is used to test the `Transaction` class.
   *  > run-main trans.TransactionTest
   */
-object TransactionTest extends App
+object TransactionTest2 extends App
 {
 
 //  val lock = new ReentrantReadWriteLock();
@@ -284,6 +302,7 @@ object TransactionTest extends App
   */
   var transactions = Array.ofDim[Transaction](nTrans)
 
+<<<<<<< Updated upstream
 
 //  var j,i=0
 //
@@ -302,6 +321,9 @@ object TransactionTest extends App
        transactions(i).start()
      }
 
+=======
+ // }
+>>>>>>> Stashed changes
 
 //  Thread sleep 10000
 //  val endTime = System.currentTimeMillis()
